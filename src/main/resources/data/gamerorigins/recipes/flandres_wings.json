@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "WWW",
+    "NEN",
+    "F G"
+  ],
+  "key":
+  {
+    "E":
+    {
+      "item": "minecraft:elytra"
+    },
+    "F":
+    {
+      "item": "minecraft:diamond"
+    },
+    "G":
+    {
+      "item": "minecraft:emerald"
+    },
+    "N":
+    {
+      "item": "minecraft:nether_star"
+    },
+    "W":
+    {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result":
+  {
+    "item": "gamerorigins:flandres_wings"
+  }
+}
+

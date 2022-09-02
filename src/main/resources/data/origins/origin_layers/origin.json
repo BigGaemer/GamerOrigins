@@ -1,35 +1,22 @@
 {
-  "replace": false,
-  "origins": [
-	  "latoorigins:slimeeq",
-	  "latoorigins:axolotl",
-	  "latoorigins:cobblestonian",
-	  "latoorigins:nukelian",
-	  "latoorigins:iron_golem",
-	  "latoorigins:astronos",
-	  "latoorigins:lava_sharkian",
-	  "latoorigins:sharkian",
-	  "latoorigins:tauros",
-	  "latoorigins:trashling",
-	  "latoorigins:goatlin",
-	  "latoorigins:lato",
-	  "latoorigins:daltog",
-  	  "latoorigins:warden",
-	  "latoorigins:dimensional_being",
-	  {
-		  "condition": {
-			  "type": "origins:equipped_item",
-			  "equipment_slot": "mainhand",
-			  "item_condition": {
-				  "type": "origins:ingredient",
-				  "ingredient": {
-					  "tag": "latoorigins:unobtainable"
-				  }
-			  }
-		  },
-		  "origins": [
-			  "latoorigins:god"
-		  ]
-	  }
-  ]
-}
+	"replace": false,
+	"origins": [
+		"gamerorigins:icarae",
+		"gamerorigins:daltog",
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "gamerorigins:unobtainable"
+					}
+				}
+			},
+			"origins": [
+				"gamerorigins:lato"
+			]
+		}
+	]
+  }

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "WWW",
+    "NEN",
+    "L F"
+  ],
+  "key":
+  {
+    "E":
+    {
+      "item": "minecraft:elytra"
+    },
+    "F":
+    {
+      "tag": "c:feathers"
+    },
+    "L":
+    {
+      "tag": "c:leather"
+    },
+    "N":
+    {
+      "item": "minecraft:nether_star"
+    },
+    "W":
+    {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result":
+  {
+    "item": "gamerorigins:discords_wings"
+  }
+}
+

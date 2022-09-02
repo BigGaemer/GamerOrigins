@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values":
+  [
+    "#gamerorigins:feathered_wings",
+    "#gamerorigins:dragon_wings",
+    "#gamerorigins:light_wings",
+    "#gamerorigins:mechanical_feathered_wings",
+    "#gamerorigins:mechanical_leather_wings"
+  ]
+}

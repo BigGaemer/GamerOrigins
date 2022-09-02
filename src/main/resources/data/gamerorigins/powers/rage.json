@@ -8,18 +8,18 @@
         "effect": {
           "effect": "minecraft:strength",
           "duration": 400,
-          "amplifier": 1
+          "amplifier": 3
         }
       },
       {
         "type": "origins:exhaust",
-        "amount": 2
+        "amount": 1
       }
     ]
   },
-  "cooldown": 600,
+  "cooldown": 400,
   "hud_render": {
-    "sprite_location": "latoorigins:textures/gui/ability_bars.png",
+    "sprite_location": "gamerorigins:textures/gui/ability_bars.png",
     "bar_index": "0"
   }
 }

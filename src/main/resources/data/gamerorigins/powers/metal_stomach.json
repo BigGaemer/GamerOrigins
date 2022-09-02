@@ -1,7 +1,0 @@
-{
-  "type": "origins:effect_immunity",
-  "effects": [
-    "minecraft:nausea",
-    "minecraft:poison"
-  ]
-}
