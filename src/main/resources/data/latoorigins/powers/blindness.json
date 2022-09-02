@@ -1,0 +1,19 @@
+{
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 40,
+  "condition": {
+    "type": "origins:food_level",
+    "comparison": "<=",
+    "compare_to": "10"
+  },
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "is_ambient": false,
+      "show_particles": false,
+      "show_icon": false
+    }
+  ]
+}

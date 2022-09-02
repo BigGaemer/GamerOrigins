@@ -1,0 +1,17 @@
+{
+  "powers": [
+	"latoorigins:lato_blooded",
+	"latoorigins:arcane_skin",
+	"latoorigins:seven_lives",
+	"origins:natural_armor",
+	"origins:tailwind",
+	"latoorigins:rage",
+	"latoorigins:rage_dummy",
+	"latoorigins:bloodshot",
+	"latoorigins:perfect_vision",
+	"latoorigins:water_vulnerability"
+  ],
+  "icon": "netherite_axe",
+  "order": 1,
+  "impact": 3
+}

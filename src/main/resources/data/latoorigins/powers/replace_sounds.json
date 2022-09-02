@@ -1,0 +1,41 @@
+{
+    "type": "origins:multiple",
+    "jump": {
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.slime.jump_small"
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "hit": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "entity.slime.hurt",
+            "condition": {
+                "type": "origins:health",
+                "comparison": ">",
+                "compare_to": 0.0
+            }
+        },
+        "cooldown": 0
+    },
+    "death": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "entity.slime.death",
+            "condition": {
+                "type": "origins:health",
+                "comparison": "<=",
+                "compare_to": 0.0
+            }
+        },
+        "cooldown": 0
+    },
+    "hidden": true
+}

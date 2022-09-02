@@ -1,0 +1,4 @@
+{
+    "type": "origins:shader",
+    "shader": "latoorigins:shaders/colorblind.json"
+}

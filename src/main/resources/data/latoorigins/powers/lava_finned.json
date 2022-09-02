@@ -1,0 +1,13 @@
+{
+  "type": "origins:conditioned_attribute",
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:lava",
+    "inverted": true
+  },
+  "modifier": {
+    "attribute": "generic.movement_speed",
+    "operation": "multiply_base",
+    "value": -0.75
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_food",
+  "entity_action": {
+    "type": "origins:chance",
+    "action": {
+      "type": "origins:spawn_entity",
+      "entity_type": "minecraft:item",
+      "tag": "{Item:{id:'minecraft:bone_meal',Count:1}}"
+    },
+    "chance": 0.3
+  }
+}

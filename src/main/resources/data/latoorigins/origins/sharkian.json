@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "latoorigins:water_torpedo",
+    "latoorigins:gnashing_teeth",
+    "latoorigins:bubbles",
+    "latoorigins:water_vision",
+    "latoorigins:finned",
+    "latoorigins:ship_eater",
+    "origins:swim_speed",
+    "origins:aqua_affinity",
+    "origins:like_water",
+    "origins:water_breathing",
+    "origins:aquatic",
+    "origins:carnivore"
+  ],
+  "icon": "prismarine_crystals",
+  "order": 1,
+  "impact": 3
+}
