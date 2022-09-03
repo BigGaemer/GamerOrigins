@@ -3,17 +3,17 @@
   "id": "gamerorigins",
   "version": "${version}",
   "name": "GamerOrigins",
-  "description": "Adds a bunch of colourful and unique wings that can be worn in the Trinkets Cape slot.",
+  "description": "Adds Gæmer origins",
   "authors": [
-    "ryantlg"
+    "RyanTLG"
   ],
   "contact": {
     "homepage": "-",
-    "issues": "-",
-    "repo": "-"
+    "issues": "https://github.com/RyanTLG/GamerOrigins/issues",
+    "repo": "https://github.com/RyanTLG/GamerOrigins"
   },
   "license": "Custom License",
-  "icon": "assets/gamerorigins/textures/item/feathered_wings.png",
+  "icon": "assets/dwayne.png",
   "environment": "*",
   "entrypoints": {
     "client": [

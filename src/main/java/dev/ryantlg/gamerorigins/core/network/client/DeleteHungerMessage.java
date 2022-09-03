@@ -4,7 +4,7 @@ import dev.emi.trinkets.api.TrinketComponent;
 import dev.emi.trinkets.api.TrinketsApi;
 import dev.ryantlg.gamerorigins.Gamer;
 import dev.ryantlg.gamerorigins.common.items.WingItem;
-import dev.ryantlg.gamerorigins.core.util.IcarusHelper;
+import dev.ryantlg.gamerorigins.core.util.GamerHelper;
 import io.netty.buffer.Unpooled;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.networking.v1.PacketSender;
@@ -42,7 +42,7 @@ public class DeleteHungerMessage {
 
 					if(stack.getItem() instanceof WingItem wings) {
 						if(!wings.isUsable(stack))
-							IcarusHelper.stopFlying(player);
+							GamerHelper.stopFlying(player);
 
 						if(stack.isIn(MELTS))
 							stack.damage(1, player, p -> p.sendEquipmentBreakStatus(EquipmentSlot.CHEST));

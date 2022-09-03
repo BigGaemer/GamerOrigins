@@ -1,5 +1,3 @@
-// Made with Model Converter by Globox_Z
-// Generate all required imports
 package dev.ryantlg.gamerorigins.client.models;
 
 import com.google.common.collect.ImmutableList;

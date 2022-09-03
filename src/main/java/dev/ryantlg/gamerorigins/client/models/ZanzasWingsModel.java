@@ -1,8 +1,3 @@
-// Made with Model Converter by Globox_Z
-// Generate all required imports
-/*
- * Model by cybercat5555
- */
 package dev.ryantlg.gamerorigins.client.models;
 
 import net.minecraft.client.model.*;

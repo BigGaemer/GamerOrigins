@@ -17,7 +17,7 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.Optional;
 
-public class IcarusHelper {
+public class GamerHelper {
 	private static final TagKey<Item> FREE_FLIGHT = TagKey.of(Registry.ITEM_KEY, new Identifier(Gamer.MOD_ID, "free_flight"));
 
 	public static float getAdjustedPitch(Entity entity, float value) {

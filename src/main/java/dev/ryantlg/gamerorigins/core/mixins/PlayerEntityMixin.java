@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import dev.ryantlg.gamerorigins.Gamer;
-import dev.ryantlg.gamerorigins.core.util.IcarusHelper;
+import dev.ryantlg.gamerorigins.core.util.GamerHelper;
 import dev.ryantlg.gamerorigins.core.util.SlowFallEntity;
 
 @Mixin(PlayerEntity.class)
@@ -28,9 +28,9 @@ public abstract class PlayerEntityMixin extends LivingEntity implements SlowFall
 		if(Gamer.HAS_POWERED_FLIGHT.test(this)) {
 			if(isFallFlying()) {
 				if(forwardSpeed > 0 && getBlockY() - getAverageHeight() <= 64)
-					IcarusHelper.applySpeed((PlayerEntity) (Object) this);
+					GamerHelper.applySpeed((PlayerEntity) (Object) this);
 				if((Gamer.getConfig().canSlowFall && isSneaking()) || isSubmergedInWater())
-					IcarusHelper.stopFlying((PlayerEntity) (Object) this);
+					GamerHelper.stopFlying((PlayerEntity) (Object) this);
 			}
 			else {
 				if(isOnGround() || isTouchingWater())

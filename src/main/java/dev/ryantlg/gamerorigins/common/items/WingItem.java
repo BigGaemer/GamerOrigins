@@ -3,7 +3,7 @@ package dev.ryantlg.gamerorigins.common.items;
 import dev.emi.trinkets.api.SlotReference;
 import dev.emi.trinkets.api.TrinketItem;
 import dev.ryantlg.gamerorigins.Gamer;
-import dev.ryantlg.gamerorigins.core.util.IcarusHelper;
+import dev.ryantlg.gamerorigins.core.util.GamerHelper;
 import dev.ryantlg.gamerorigins.core.util.SlowFallEntity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
@@ -47,16 +47,16 @@ public class WingItem extends TrinketItem {
 				return;
 
 			if(player.getHungerManager().getFoodLevel() <= 6 || !isUsable(stack)) {
-				IcarusHelper.stopFlying(player);
+				GamerHelper.stopFlying(player);
 				return;
 			}
 
 			if(player.isFallFlying()) {
 				if(player.forwardSpeed > 0)
-					IcarusHelper.applySpeed(player, stack);
+					GamerHelper.applySpeed(player, stack);
 
 				if((Gamer.getConfig().canSlowFall && player.isSneaking()) || player.isSubmergedInWater())
-					IcarusHelper.stopFlying(player);
+					GamerHelper.stopFlying(player);
 
 				if(player.getPos().y > player.world.getHeight() + 64 && player.age % 2 == 0 && stack.isIn(MELTS))
 					stack.damage(1, player, p -> p.sendEquipmentBreakStatus(EquipmentSlot.CHEST));

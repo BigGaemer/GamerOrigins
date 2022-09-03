@@ -2,15 +2,14 @@
     "powers": [
       "gamerorigins:lato_blooded",
       "gamerorigins:seven_lives",
-      "origins:natural_armor",
-      "origins:tailwind",
+      "gamerorigins:natural_armor",
+      "gamerorigins:tailwind",
       "gamerorigins:rage",
       "gamerorigins:rage_dummy",
       "gamerorigins:rage_addition",
       "gamerorigins:perfect_vision",
       "gamerorigins:water_vulnerability",
-      "gamerorigins:phantomize",
-      "gamerorigins:phasing",
+      "gamerorigins:invisimunity",
       "gamerorigins:invisibility",
       "gamerorigins:invulnerability"
     ],
