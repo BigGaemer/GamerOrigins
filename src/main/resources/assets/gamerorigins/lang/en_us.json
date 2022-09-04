@@ -32,6 +32,12 @@
   "power.gamerorigins.neighbors.name": "Demons Together",
   "power.gamerorigins.neighbors.description": "You are familiar with mobs of the nether.",
   "power.gamerorigins.native_resources.name": "Native Resources",
-  "power.gamerorigins.native_resources.description": "Slightly increased damage using netherite or gold, and allows netherrack to be used as cobblestone."
+  "power.gamerorigins.native_resources.description": "Slightly increased damage using netherite or gold, and allows netherrack to be used as cobblestone.",
+
+  //-----Lata-----//
+  "origin.gamerorigins.lata.name": "Lata(TEMP)",
+  "origin.gamerorigins.lata.description": "The Lata were the Daltogs' last effort to survive against the Latonians, but they went rogue and are now on the brink of extinction",
+  "power.gamerorigins.water_vulnerability_ex.name": "Extra Boiling Water",
+  "power.gamerorigins.water_vulnerability_ex.description": "Your blood quickly boils in water, causing you to take damage after prolonged exposure to it."
 
 }
