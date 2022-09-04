@@ -4,14 +4,7 @@
 	"package": "dev.ryantlg.gamerorigins.core.mixins",
 	"compatibilityLevel": "JAVA_16",
 	"mixins": [
-		"EntityMixin",
-		"PlayerEntityMixin"
-	],
-	"client": [
-		"client.CapeFeatureRendererMixin",
-		"client.GameRendererMixin",
-		"client.MouseMixin",
-		"client.PlayerEntityRendererMixin"
+		"GamerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
