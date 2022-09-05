@@ -1,6 +1,8 @@
 {
     "powers": [
-        "gamerorigins:water_vulnerability_ex"
+        "gamerorigins:water_vulnerability_ex",
+        "gamerorigins:furious",
+        "gamerorigins:fifteen_lives"
     ],
     "icon": "netherite_pickaxe",
     "order": 1,

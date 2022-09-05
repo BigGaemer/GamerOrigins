@@ -1,0 +1,19 @@
+{
+	"type": "origins:attribute",
+	"modifiers":
+	[
+		{
+			"name": "Long Arms reach",
+			"attribute": "reach-entity-attributes:reach",
+			"value": 0.5,
+			"operation": "addition"
+		},
+		{
+    		"name": "Long Arms attack range",
+			"attribute": "reach-entity-attributes:attack_range",
+			"value": 0.5,
+			"operation": "addition"
+		}
+	]
+	
+}
