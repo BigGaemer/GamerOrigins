@@ -32,6 +32,16 @@
   "power.gamerorigins.neighbors.name": "Demons Together",
   "power.gamerorigins.neighbors.description": "You are familiar with mobs of the nether.",
   "power.gamerorigins.native_resources.name": "Native Resources",
-  "power.gamerorigins.native_resources.description": "Slightly increased damage using netherite or gold, and allows netherrack to be used as cobblestone."
+  "power.gamerorigins.native_resources.description": "Slightly increased damage using netherite or gold, and allows netherrack to be used as cobblestone.",
+
+  //-----Monarch-----//
+  "origin.gamerorigins.monarch.name": "Monarch",
+  "origin.gamerorigins.monarch.description": "The Monarchs were the first of them all, they took pride in the fact that they were superior to all others of their time, that was until newer and better origins came along and almost drove them to extinction. However, now they have returned after evolving into something much more powerful",
+  "power.gamerorigins.hyperefficient_blood.name": "Hyperefficient Blood",
+  "power.gamerorigins.hyperefficient_blood.description": "Your blood is extremely efficient, destroying any poisons within their bloodstream before they have a chance to do any damage",
+  "power.gamerorigins.sun_fueled.name": "Sun Fueled",
+  "power.gamerorigins.sun_fueled.description": "You have evolved to draw power from the sun, leading you to become more powerful during daytime",
+  "power.gamerorigins.pride.name": "Pride",
+  "power.gamerorigins.pride.description": "Your ego is so powerful, it can temporarily improve your physical abilities. But only during daytime"
 
 }

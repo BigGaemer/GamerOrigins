@@ -1,0 +1,25 @@
+{
+"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+			"type": "origins:apply_effect",
+			"effects": [{
+					"effect": "minecraft:health_boost",
+					"amplifier": 0,
+					"duration": 100,
+					"show_particles": false
+				},
+				{
+					"effect": "minecraft:speed",
+					"amplifier": 1,
+					"duration": 100,
+					"show_particles": false
+				}
+			]
+		}]
+	},
+  "condition": {
+    "type": "origins:daytime"
+  }
+}
