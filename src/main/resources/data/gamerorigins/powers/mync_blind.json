@@ -21,7 +21,7 @@
 			"inverted": true,
 				"block_condition": {
 					"type": "origins:in_tag",
-					"tag": "libra:mushrooms"
+					"tag": "gamerorigins:mushrooms"
 			}
 		},
 		{

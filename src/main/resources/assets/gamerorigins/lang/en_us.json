@@ -38,6 +38,10 @@
   "origin.gamerorigins.lata.name": "Lata(TEMP)",
   "origin.gamerorigins.lata.description": "The Lata were the Daltogs' last effort to survive against the Latonians, but they went rogue and are now on the brink of extinction",
   "power.gamerorigins.water_vulnerability_ex.name": "Extra Boiling Water",
-  "power.gamerorigins.water_vulnerability_ex.description": "Your blood quickly boils in water, causing you to take damage after prolonged exposure to it."
+  "power.gamerorigins.water_vulnerability_ex.description": "Your blood quickly boils in water, causing you to take damage after prolonged exposure to it.",
+
+  //-----Mync-----//
+  "power.gamerorigins.mync_echolocation.name": "Echolocation",
+	"power.gamerorigins.mync_echolocation.description": "Use your [Tab button] to make a sound to figure out how your surrounding area looks like. Nearby wool will stop this from working, but you can use a night vision potion to get it to work permanently.",
 
 }

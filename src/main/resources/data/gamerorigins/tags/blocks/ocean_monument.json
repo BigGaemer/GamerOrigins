@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"values":
+	[
+		"minecraft:prismarine",
+		"minecraft:dark_prismarine",
+		"minecraft:prismarine_bricks",
+		"minecraft:sea_lantern",
+		"minecraft:prismarine_bricks",
+		"minecraft:prismarine_stairs",
+		"minecraft:prismarine_brick_stairs",
+		"minecraft:dark_prismarine_stairs",
+		"minecraft:prismarine_wall",
+		"minecraft:prismarine_slab",
+		"minecraft:prismarine_brick_slab",
+		"minecraft:dark_prismarine_slab"
+	]
+}

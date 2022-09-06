@@ -5,7 +5,7 @@
 		"gamerorigins:mync_echolocate"
 	],
 	"icon": {
-		"item": "minecraft:eye_of_ender",
+		"item": "minecraft:ender_eye",
 		"tag": "{Enchantments:[{}],CustomModelData:1}"
 	},
 	"order": 1,
