@@ -1,0 +1,94 @@
+{
+	"type": "origins:active_self",
+	"cooldown": 140,
+	"hud_render": {
+	  "should_render":true,
+	  "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+	  "bar_index": 7
+	},
+    "entity_action": {
+		"type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:if_else",
+				"condition": {
+                    "type": "origins:and",
+                    "conditions": [
+						{
+							"type": "origins:equipped_item",
+							"equipment_slot": "mainhand",
+							"item_condition": {
+								"type": "origins:ingredient",
+								"ingredient": {
+									"item": "minecraft:fermented_spider_eye"
+								}
+							}
+						}
+                    ]
+                },
+				
+                "if_action": {
+					"type": "origins:and",
+					"actions": [ 
+						{
+							"type": "origins:execute_command",
+							"command": "effect give @s minecraft:night_vision 60 0 true",
+							"permission_level": 4
+						},
+						{
+						  "type": "origins:execute_command",
+						  "command": "clear @s minecraft:fermented_spider_eye 1",
+						  "permission_level": 4
+						},
+						{
+						  "type": "origins:execute_command",
+						  "command": "playsound block.block.conduit.attack.target master @e[distance=..15] ~ ~ ~ 10 1 1",
+						  "permission_level": 4
+						}
+					]
+				},
+				
+                "else_action": {
+					"type": "origins:and",
+					"actions": [ 
+					{
+					  "type": "origins:execute_command",
+					  "command": "playsound block.conduit.attack.target master @p[distance=..15] ~ ~ ~ 10 1 1",
+					  "permission_level": 4
+					},
+					{
+					  "type": "origins:execute_command",
+					  "command": "effect give @p minecraft:night_vision 5 1 true",
+					  "permission_level": 4
+					}
+				  ],
+				  "cooldown": 20,
+				  "hud_render": {
+						"should_render": false,
+						"sprite_location": "origins:textures/gui/resource_bar.png",
+						"bar_index": 4
+					}
+				}
+
+            }
+        ]  
+    },
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:block_in_radius",	
+				"radius": 4,
+				"inverted": true,
+				"block_condition": {
+					"type": "origins:in_tag",
+					"tag": "libra:wool"
+				}
+			}
+		]
+	},	
+	"key": {
+		"key":"key.playerlist",
+		"continuous": false
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"gamerorigins:mync_vision",
+		"gamerorigins:mync_blind",
+		"gamerorigins:mync_echolocate"
+	],
+	"icon": {
+		"item": "minecraft:eye_of_ender",
+		"tag": "{Enchantments:[{}],CustomModelData:1}"
+	},
+	"order": 1,
+	"impact": 3
+}

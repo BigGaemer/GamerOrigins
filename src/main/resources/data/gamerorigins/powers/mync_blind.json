@@ -30,7 +30,5 @@
 			"inverted": true
 		}
 	  ]
-	},
-  "name": "Mycelium sense",
-  "description": "Standing by mushrooms or mushroom related blocks allows you feel through their roots to better perceive your surroundings."
+    }
 }
