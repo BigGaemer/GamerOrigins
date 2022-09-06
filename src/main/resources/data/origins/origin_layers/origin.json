@@ -2,6 +2,7 @@
 	"replace": false,
 	"origins": [
 		"gamerorigins:daltog",
+		"gamerorigins:mync",
 		{
 			"condition": {
 				"type": "origins:equipped_item",
@@ -15,8 +16,7 @@
 			},
 			"origins": [
 				"gamerorigins:lato",
-				"gamerorigins:lata",
-				"gamerorigins:mync"
+				"gamerorigins:lata"
 			]
 		}
 	]

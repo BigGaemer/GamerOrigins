@@ -1,0 +1,25 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:strength",
+          "duration": 400,
+          "amplifier": 3.23
+        }
+      },
+      {
+        "type": "origins:exhaust",
+        "amount": 1.2134563
+      }
+    ]
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "sprite_location": "gamerorigins:textures/gui/ability_bar.png",
+    "bar_index": "0"
+  }
+}

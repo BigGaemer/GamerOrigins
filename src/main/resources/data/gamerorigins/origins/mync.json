@@ -2,12 +2,20 @@
 	"powers": [
 		"gamerorigins:mync_vision",
 		"gamerorigins:mync_blind",
+		"gamerorigins:seventeen_lives",
+		"gamerorigins:mync_natural_armour",
+		"gamerorigins:lato_blooded",
+		"gamerorigins:water_vulnerability",
+		"gamerorigins:mync_tailwind",
+		"gamerorigins:mync_strong",
+		"gamerorigins:mync_rage",
+      	"gamerorigins:mync_rage_dummy",
+      	"gamerorigins:mync_rage_addition",
 		"gamerorigins:mync_echolocate"
 	],
 	"icon": {
-		"item": "minecraft:ender_eye",
-		"tag": "{Enchantments:[{}],CustomModelData:1}"
+		"item": "gamerorigins:mync_eye"
 	},
-	"order": 1,
+	"order": 4,
 	"impact": 3
 }
