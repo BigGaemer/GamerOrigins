@@ -1,0 +1,37 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 35,
+	"effect": {
+		"effect": "blindness",
+		"duration": 35,
+		"amplifier": 2,
+		"is_abient": true,
+		"show_particles": false,
+		"show_icon": false
+	},
+  "interval": 60,
+	"condition": {
+	  "type": "origins:and",
+	  "conditions": [
+		{
+			"type": "origins:block_in_radius",	
+			"radius": 1,
+			"inverted": true,
+				"block_condition": {
+					"type": "origins:in_tag",
+					"tag": "libra:mushrooms"
+			}
+		},
+		{
+			"type": "origins:status_effect",
+			"effect": "minecraft:night_vision",
+			"inverted": true
+		}
+	  ]
+	},
+  "name": "Mycelium sense",
+  "description": "Standing by mushrooms or mushroom related blocks allows you feel through their roots to better perceive your surroundings."
+}
+//Umena says hi
