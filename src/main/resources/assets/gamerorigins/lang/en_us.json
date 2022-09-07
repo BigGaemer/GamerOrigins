@@ -1,4 +1,7 @@
 {
+  //-----Icon Items-----//
+  "item.gamerorigins.mync_eye": "you shouldnt have this",
+
   //-----Lato-----//
   "origin.gamerorigins.lato.name": "Lato",
   "origin.gamerorigins.lato.description": "Latos banished Daltogs to the nether long ago. Although strong, most of the Latos are gone now.",

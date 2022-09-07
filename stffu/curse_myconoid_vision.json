@@ -1,7 +1,0 @@
-{
-	"type": "origins:shader",
-	"shader": "minecraft:shaders/post/sobel.json",
-	"toggleable": false,
-	"name": "Shroom vision",
-	"description": "You do not have eyes and must figure your position with sounds!"
-}
