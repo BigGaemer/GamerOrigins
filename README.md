@@ -24,6 +24,9 @@ You want to use it in a modpack? Sure! Just remember to credit me or the ARCMods
 
 If you find an issue or bug in the mod or just have a general suggestion you can write it [here](https://github.com/RyanTLG/GamerOrigins/issues)
 
-### AAAAAAAAAAAAAAAa
 
-[aaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA](https://raw.githubusercontent.com/RyanTLG/GamerItems/1-18-1/unstable/AAAAAAAAAAAAAAAa)
+
+### About requests
+Will I code for Forge? no.
+<br/>
+<a title="forge bad" target="_blank" rel="noopener noreferrer"><img src="https://cammiescorner.dev/images/extras/no_forge.png" width="215" height="73"></a>
