@@ -15,8 +15,8 @@
 				}
 			},
 			"origins": [
-				"gamerorigins:lato",
-				"gamerorigins:lata"
+				"gamerorigins:lato"
+				// "gamerorigins:lata"
 			]
 		}
 	]
