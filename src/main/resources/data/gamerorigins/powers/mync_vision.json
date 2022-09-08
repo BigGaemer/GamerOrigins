@@ -1,0 +1,5 @@
+{
+	"type": "origins:shader",
+	"shader": "gamerorigins:shaders/post/sobel.json",
+	"toggleable": false
+}

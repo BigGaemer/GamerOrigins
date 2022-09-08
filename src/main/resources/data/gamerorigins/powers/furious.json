@@ -1,5 +1,9 @@
 {
   "type": "origins:active_self",
+  "hud_render": {
+    "sprite_location": "gamerorigins:textures/gui/ability_bar.png",
+    "bar_index": "1"
+  },
   "entity_action": {
     "type": "origins:and",
     "actions": [
@@ -17,9 +21,5 @@
       }
     ]
   },
-  "cooldown": 400,
-  "hud_render": {
-    "sprite_location": "gamerorigins:textures/gui/ability_bar.png",
-    "bar_index": "0"
-  }
+  "cooldown": 400
 }

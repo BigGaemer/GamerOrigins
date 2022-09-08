@@ -2,7 +2,7 @@
   "type": "origins:active_self",
   "cooldown": 300,
   "hud_render": {
-    "sprite_location": "latoorigins:textures/gui/ability_bars.png",
+    "sprite_location": "latoorigins:textures/gui/ability_bar.png",
     "bar_index": "2"
   },
   "entity_action": {

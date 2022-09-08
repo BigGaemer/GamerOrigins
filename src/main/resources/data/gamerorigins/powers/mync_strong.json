@@ -1,0 +1,13 @@
+{
+	"type": "origins:attribute",
+	"modifiers":
+	[
+		{
+			"name": "Strong damage",
+			"attribute": "generic.attack_damage",
+			"value": 3.0,
+			"operation": "addition"
+		}
+	]
+	
+}

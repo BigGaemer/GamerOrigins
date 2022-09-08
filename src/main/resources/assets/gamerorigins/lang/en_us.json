@@ -1,4 +1,7 @@
 {
+  //-----Icon Items-----//
+  "item.gamerorigins.mync_eye": "you shouldnt have this",
+
   //-----Lato-----//
   "origin.gamerorigins.lato.name": "Lato",
   "origin.gamerorigins.lato.description": "Latos banished Daltogs to the nether long ago. Although strong, most of the Latos are gone now.",
@@ -9,7 +12,9 @@
   "power.gamerorigins.perfect_vision.name": "Perfect Vision",
   "power.gamerorigins.perfect_vision.description": "Carefully constructed eyes that allow for perfect vision, they also are toggleable.",
   "power.gamerorigins.rage.name": "Rage",
-  "power.gamerorigins.rage.description": "Rage gives strength for a short period of time.",
+  "power.gamerorigins.rage.description": "Rage gives strength and speed for a short period of time.",
+  "power.gamerorigins.strong.name": "Strong",
+  "power.gamerorigins.strong.description": "You do more damage than regular people.",
   "power.gamerorigins.seventeen_lives.name": "Seventeen Lives",
   "power.gamerorigins.seventeen_lives.description": "Your body causes you to have Seventeen hearts.",
   "power.gamerorigins.water_vulnerability.name": "Boiling Water",
@@ -20,6 +25,8 @@
   "power.gamerorigins.tailwind.description": "You are a little bit quicker on foot than others.",
   "power.gamerorigins.natural_armor.name": "Thick Skin",
   "power.gamerorigins.natural_armor.description": "Even without wearing armor, your skin provides natural protection.",
+  "power.gamerorigins.long_arms.name": "Long Arms",
+  "power.gamerorigins.long_arms.description": "You have slightly longer arms.",
 
   "death.attack.boil_in_water": "%1$s was boiled alive",
   "death.attack.boil_in_water.player": "%1$s was boiled alive whilst trying to escape %2$s",
@@ -32,6 +39,30 @@
   "power.gamerorigins.neighbors.name": "Demons Together",
   "power.gamerorigins.neighbors.description": "You are familiar with mobs of the nether.",
   "power.gamerorigins.native_resources.name": "Native Resources",
-  "power.gamerorigins.native_resources.description": "Slightly increased damage using netherite or gold, and allows netherrack to be used as cobblestone."
+  "power.gamerorigins.native_resources.description": "Slightly increased damage using netherite or gold, and allows netherrack to be used as cobblestone.",
+
+  //-----Lata-----//
+  "origin.gamerorigins.lata.name": "Lata(TEMP)",
+  "origin.gamerorigins.lata.description": "The Lata were the Daltogs' last effort to survive against the Latonians, but they went rogue and are now on the brink of extinction",
+  "power.gamerorigins.water_vulnerability_ex.name": "Extra Boiling Water",
+  "power.gamerorigins.water_vulnerability_ex.description": "Your blood quickly boils in water, causing you to take damage after prolonged exposure to it.",
+
+  //-----Mync-----//
+  "origin.gamerorigins.mync.name": "Mync",
+  "origin.gamerorigins.mync.description": "Myncs are blind Latos. They can't go invisible like regular Latos but are stronger than most Latos.",
+  "power.gamerorigins.mync_blind.name": "Mushroom Sense",
+  "power.gamerorigins.mync_blind.description": "Standing by mushrooms or mushroom related blocks allows you to connect to and feel through their roots to better perceive your surroundings.",
+  "power.gamerorigins.mync_tailwind.name": "Tailwind",
+  "power.gamerorigins.mync_tailwind.description": "You are a little bit quicker on foot than others.",
+  "power.gamerorigins.mync_rage.name": "Rage",
+  "power.gamerorigins.mync_rage.description": "Rage gives strength and speed for a short period of time.",
+  "power.gamerorigins.mync_natural_armour.name": "Thick Skin",
+  "power.gamerorigins.mync_natural_armour.description": "Even without wearing armor, your skin provides natural protection.",
+  "power.gamerorigins.mync_vision.name": "Blind",
+	"power.gamerorigins.mync_vision.description": "Myncs, being blind Latos, have to perceive their environment through sound.",
+  "power.gamerorigins.mync_echolocate.name": "Echolocation",
+	"power.gamerorigins.mync_echolocate.description": "Use your [Tab button] to make a sound to figure out how your surrounding area looks like. Nearby wool will stop this from working, but you can use a night vision potion to get it to work permanently.",
+  "power.gamerorigins.mync_strong.name": "Strong",
+  "power.gamerorigins.mync_strong.description": "You do more damage than regular people."
 
 }
