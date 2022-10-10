@@ -25,7 +25,6 @@ You want to use it in a modpack? Sure! Just remember to credit me or the ARCMods
 If you find an issue or bug in the mod or just have a general suggestion you can write it [here](https://github.com/RyanTLG/GamerOrigins/issues)
 
 
-
 ### About requests
 Will I code for Forge? no.
 <br/>
