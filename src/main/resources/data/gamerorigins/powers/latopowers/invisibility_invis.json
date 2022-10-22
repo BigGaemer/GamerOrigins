@@ -5,6 +5,6 @@
   "hidden": true,
   "condition": {
     "type": "origins:power_active",
-    "power": "*:invisimunity"
+    "power": "*:latopowers/invisibility"
   }
 }

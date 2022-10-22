@@ -1,24 +1,24 @@
 {
   "powers": [
-	"gamerorigins:native_resources",
-	"gamerorigins:native_resources_dummy",
-	"gamerorigins:native_resources_dummy2",
-	"gamerorigins:native_resources_dummy3",
-	"gamerorigins:native_resources_dummy4",
-	"gamerorigins:native_resources_dummy5",
-	"gamerorigins:native_resources_dummy6",
-	"gamerorigins:native_resources_dummy7",
-	"gamerorigins:native_resources_dummy8",
-	"gamerorigins:heated_skin",
+	"gamerorigins:daltogpowers/native_resources",
+	"gamerorigins:daltogpowers/native_resources_dummy",
+	"gamerorigins:daltogpowers/native_resources_dummy2",
+	"gamerorigins:daltogpowers/native_resources_dummy3",
+	"gamerorigins:daltogpowers/native_resources_dummy4",
+	"gamerorigins:daltogpowers/native_resources_dummy5",
+	"gamerorigins:daltogpowers/native_resources_dummy6",
+	"gamerorigins:daltogpowers/native_resources_dummy7",
+	"gamerorigins:daltogpowers/native_resources_dummy8",
+	"gamerorigins:daltogpowers/heated_skin",
 	"origins:translucent",
 	"origins:tailwind",
 	"origins:carnivore",
 	"origins:fire_immunity",
 	"origins:nether_spawn",
 	"origins:light_armor",
-	"gamerorigins:neighbors"
+	"gamerorigins:daltogpowers/neighbors"
   ],
   "icon": "nether_brick",
-  "order": 2,
+  "order": 1000,
   "impact": 3
 }

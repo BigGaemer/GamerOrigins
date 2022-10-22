@@ -1,0 +1,12 @@
+{
+	"powers": [
+        "gamerorigins:supernova",
+        "gamerorigins:teleport",
+        "gamerorigins:lightningbolt"
+	],
+	"icon": {
+		"item": "gamerorigins:mync_eye"
+	},
+	"order": 10,
+	"impact": 3
+}

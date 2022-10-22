@@ -3,6 +3,8 @@
 	"origins": [
 		"gamerorigins:daltog",
 		"gamerorigins:mync",
+		"gamerorigins:lato",
+		"gamerorigins:immortal_human",
 		{
 			"condition": {
 				"type": "origins:equipped_item",
@@ -15,8 +17,7 @@
 				}
 			},
 			"origins": [
-				"gamerorigins:lato"
-				// "gamerorigins:lata"
+				"gamerorigins:testing"
 			]
 		}
 	]

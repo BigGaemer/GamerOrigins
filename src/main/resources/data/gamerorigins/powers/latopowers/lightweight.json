@@ -1,0 +1,24 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+       "type": "origins:and",
+       "actions": [{
+          "type": "origins:block_action_at",
+          "block_action": {
+             "type": "origins:modify_block_state",
+             "property": "tilt",
+             "enum": "none"
+          }
+       }]
+    },
+    "condition": {
+       "type": "origins:and",
+       "conditions": [{
+          "type": "origins:command",
+          "command": "execute at @s if block ~ ~ ~ minecraft:big_dripleaf unless block ~ ~ ~ minecraft:big_dripleaf[tilt=full]",
+          "comparison": "==",
+          "compare_to": 1
+       }]
+    }
+ }

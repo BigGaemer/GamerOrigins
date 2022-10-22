@@ -1,0 +1,14 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 35,
+	"effect": {
+		"effect": "weakness",
+		"duration": 35,
+		"amplifier": 3,
+		"is_abient": true,
+		"show_particles": false,
+		"show_icon": false
+	}
+}
