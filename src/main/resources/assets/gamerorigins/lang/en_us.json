@@ -40,8 +40,12 @@
   "power.gamerorigins.hyperefficient_blood.name": "Hyperefficient Blood",
   "power.gamerorigins.hyperefficient_blood.description": "Your blood is extremely efficient, destroying any poisons within their bloodstream before they have a chance to do any damage",
   "power.gamerorigins.sun_fueled.name": "Sun Fueled",
-  "power.gamerorigins.sun_fueled.description": "You have evolved to draw power from the sun, leading you to become more powerful during daytime",
+  "power.gamerorigins.sun_fueled.description": "You have evolved to draw power from the sun, leading you to become more powerful during the day",
   "power.gamerorigins.pride.name": "Pride",
-  "power.gamerorigins.pride.description": "Your ego is so powerful, it can temporarily improve your physical abilities. But only during daytime"
+  "power.gamerorigins.pride.description": "Your ego is so powerful, it can temporarily improve your physical abilities. But only during daytime",
+  "power.gamerorigins.nytophobia.name": "Nyctophobia",
+  "power.gamerorigins.nyctophobia.description": "Your power is derived from the sun, making you weaker during the night",
+  "power.gamerorigins.shining.name": "Shining",
+  "power.gamerorigins.shining.description": "An entire lifetime of absorbing the sun's energy makes you radiate it's light"
 
 }

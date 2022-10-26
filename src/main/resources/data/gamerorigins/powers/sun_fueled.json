@@ -1,25 +1,36 @@
 {
 "type": "origins:action_over_time",
+"condition": {
+    "type": "origins:daytime"
+  },
 	"entity_action": {
 		"type": "origins:and",
 		"actions": [{
 			"type": "origins:apply_effect",
 			"effects": [{
-					"effect": "minecraft:health_boost",
-					"amplifier": 0,
-					"duration": 100,
-					"show_particles": false
-				},
-				{
 					"effect": "minecraft:speed",
 					"amplifier": 1,
-					"duration": 100,
-					"show_particles": false
+					"duration": 35,
+					"show_particles": false,
+					"show_icon": false
+				},
+				{
+					"effect": "minecraft:strength",
+					"amplifier": 2,
+					"duration": 35,
+					"show_particles": false,
+					"show_icon": false
+				},
+				{
+					"effect": "minecraft:resistance",
+					"amplifier": 3,
+					"duration": 35,
+					"show_particles": false,
+					"show_icon": false
 				}
 			]
-		}]
+		}
+	]
 	},
-  "condition": {
-    "type": "origins:daytime"
-  }
+  "update_health": true
 }

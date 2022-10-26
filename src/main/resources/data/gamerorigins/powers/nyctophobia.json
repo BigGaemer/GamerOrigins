@@ -1,9 +1,31 @@
 {
-    "type": "origins:attribute",
-    "modifier": {
-      "attribute": "minecraft:generic.max_health",
-      "value": -10.0,
-      "operation": "addition"
-    }
-    }
+  "type": "origins:action_over_time",
+  "condition": {
+      "type": "origins:daytime",
+      "inverted": true
+    },
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [{
+        "type": "origins:apply_effect",
+        "effects": [{
+            "effect": "minecraft:slowness",
+            "amplifier": 2,
+            "duration": 35,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "effect": "minecraft:weakness",
+            "amplifier": 2,
+            "duration": 35,
+            "show_particles": false,
+            "show_icon": false
+          }
+        ]
+      }
+    ]
+    },
+    "update_health": true
+  }
   
