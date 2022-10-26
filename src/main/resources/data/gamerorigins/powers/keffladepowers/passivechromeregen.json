@@ -1,0 +1,11 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "gamerorigins:keffladepowers/darkchromes",
+        "change": 1,
+        "operation": "add"
+    }
+}

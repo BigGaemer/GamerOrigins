@@ -1,0 +1,22 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:book"
+            }
+        }
+    },
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "magic"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.1
+    }
+}

@@ -25,6 +25,8 @@
   "power.gamerorigins.latopowers/natural_armor.description": "Even without wearing armor, your skin provides natural protection.",
   "power.gamerorigins.latopowers/long_arms.name": "Long Arms",
   "power.gamerorigins.latopowers/long_arms.description": "You have slightly longer arms.",
+  "power.gamerorigins.latopowers/lightweight.name": "Lightweight",
+  "power.gamerorigins.latopowers/lightweight.description": "You are not very heavy, so dripleaves don't tilt under your weight.",
 
   "death.attack.boil_in_water": "%1$s was boiled alive",
   "death.attack.boil_in_water.player": "%1$s was boiled alive whilst trying to escape %2$s",
@@ -69,6 +71,33 @@
   "power.gamerorigins.immortal_humanpowers/immortal.name": "Immortal",
   "power.gamerorigins.immortal_humanpowers/immortal.description": "You cannot die, no matter how hard you try.",
   "power.gamerorigins.immortal_humanpowers/pathetic.name": "Pathetic",
-  "power.gamerorigins.immortal_humanpowers/pathetic.description": "You cannot deal damage to anything."
+  "power.gamerorigins.immortal_humanpowers/pathetic.description": "You cannot deal damage to anything.",
 
+  //------Kefflade-----//
+  "origin.gamerorigins.kefflade.name": "Kefflade",
+  "origin.gamerorigins.kefflade.description": "A Lato, versed in magic",
+  "power.gamerorigins.keffladepowers/darkchromes.name": "Dark Chromes",
+  "power.gamerorigins.keffladepowers/darkchromes.description": "You have a resource bar that indicates how much Dark Chromes you have left, Dark Chromes are needed to use some abilities.\nYou gain Dark Chromes passively every second. Holding a book in your offhand gives you increased Dark Chromes regen.\n(Max Dark Chromes is 200)",
+  "power.gamerorigins.keffladepowers/bookshelfnear.name": "Book Lover",
+  "power.gamerorigins.keffladepowers/bookshelfnear.description": "Being near bookshelves increases your Dark Chromes per second, and also gives you bonuses.\n(Stacking up to 10 bookshelves)",
+  "power.gamerorigins.keffladepowers/darkfavour.name": "Magic Mastery",
+  "power.gamerorigins.keffladepowers/darkfavour.description": "Holding a book in your offhand gives you increased magic damage and resistance.",
+  "power.gamerorigins.keffladepowers/honeychromes.name": "Sweet Sweet Honey",
+  "power.gamerorigins.keffladepowers/honeychromes.description": "You like the taste of honey, it fills you with energy. restoring 15 Dark Chromes per bottle.",
+  "power.gamerorigins.keffladepowers/supernova.name": "Supernova",
+  "power.gamerorigins.keffladepowers/supernova.description": "(Primary + 30 Dark Chromes)You summon a rocket that explodes in the direction you're looking at.",
+  "power.gamerorigins.keffladepowers/nodmg.name": "Not Sharp",
+  "power.gamerorigins.keffladepowers/nodmg.description": "Your swords and axes don't exactly deal as much damage as you expected.",
+  "power.gamerorigins.keffladepowers/lightningbolt.name": "Lightning Bolt",
+  "power.gamerorigins.keffladepowers/lightningbolt.description": "(Primary + Sneaking + 90 Dark Chromes)You summon a lightning bolt in the direction you're looking at.",
+  "power.gamerorigins.keffladepowers/whitemagic.name": "White Magic",
+  "power.gamerorigins.keffladepowers/whitemagic.description": "(Secondary + 50 Dark Chromes): Shoot out a healing ray that heals whatever target it hits overtime. 60% of healing is given instantly and the rest is given over the next seconds. Undead get damaged instead.",
+  "power.gamerorigins.keffladepowers/shadowblast.name": "Shadow Blast",
+  "power.gamerorigins.keffladepowers/shadowblast.description": "(Secondary + Sneaking + 40 Dark Chromes): You channel the arts of shadow magic to unleash a shadow bolt in the direction you're facing. Blinding, Slowing and damaging the target.",
+  "power.gamerorigins.keffladepowers/darkball.name": "Ender Fireball",
+  "power.gamerorigins.keffladepowers/darkball.description": "(ternary - 20 Dark Chromes): You channel the magic arts of ender magic to fire an enderdragon fireball to the direction you're looking at.",
+  "power.gamerorigins.keffladepowers/cursedexplosions.name": "Unstable Magic",
+  "power.gamerorigins.keffladepowers/cursedexplosions.description": "(Ternary + Sneaking + 70 Dark Chromes): With a very long cooldown, You fire an explosive projectile to the target infront of you with a range of 20 blocks. Hitting a target marks them. After 4 seconds the chain explosions start to happen. each explosion takes a second. for a max of 2 explosions in total.",
+  "power.gamerorigins.keffladepowers/kefflade_natural_armour.name": "Thick Skin",
+  "power.gamerorigins.keffladepowers/kefflade_natural_armour.description": "Even without wearing armor, your skin provides natural protection."
 }

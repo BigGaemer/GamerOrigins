@@ -1,0 +1,33 @@
+{
+    "name": "Ender Fireball",
+    "description": "(ternary - Not Sneaking - 20 Dark Chromes): You channel the magic arts of ender magic to fire an enderdragon fireball to the direction you're looking at.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "gamerorigins:keffladepowers/darkchromes",
+                "comparison": ">=",
+                "compare_to": 20
+            }
+        ]
+    },
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:dragon_fireball",
+    "cooldown": 500,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 7
+    },
+    "count": 1,
+    "interval": 0,
+    "start_delay": 0,
+    "speed": 1.5,
+    "divergence": 1,
+    "sound": "minecraft:entity.ender_dragon.shoot",
+    "key": "ternary"
+}
