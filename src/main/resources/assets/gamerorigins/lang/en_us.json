@@ -99,5 +99,19 @@
   "power.gamerorigins.keffladepowers/cursedexplosions.name": "Unstable Magic",
   "power.gamerorigins.keffladepowers/cursedexplosions.description": "(Ternary + Sneaking + 70 Dark Chromes): With a very long cooldown, You fire an explosive projectile to the target infront of you with a range of 20 blocks. Hitting a target marks them. After 4 seconds the chain explosions start to happen. each explosion takes a second. for a max of 2 explosions in total.",
   "power.gamerorigins.keffladepowers/kefflade_natural_armour.name": "Thick Skin",
-  "power.gamerorigins.keffladepowers/kefflade_natural_armour.description": "Even without wearing armor, your skin provides natural protection."
+  "power.gamerorigins.keffladepowers/kefflade_natural_armour.description": "Even without wearing armor, your skin provides natural protection.",
+
+  //-----Monarch-----//
+  "origin.gamerorigins.monarch.name": "Monarch",
+  "origin.gamerorigins.monarch.description": "The Monarchs were the first of them all, they took pride in the fact that they were superior to all others of their time, that was until newer and better origins came along and almost drove them to extinction. However, now they have returned after evolving into something much more powerful",
+  "power.gamerorigins.monarchpowers/hyperefficient_blood.name": "Hyperefficient Blood",
+  "power.gamerorigins.monarchpowers/hyperefficient_blood.description": "Your blood is extremely efficient, destroying any poisons within their bloodstream before they have a chance to do any damage",
+  "power.gamerorigins.monarchpowers/sun_fueled.name": "Sun Fueled",
+  "power.gamerorigins.monarchpowers/sun_fueled.description": "You have evolved to draw power from the sun, leading you to become more powerful during the day",
+  "power.gamerorigins.monarchpowers/pride.name": "Pride",
+  "power.gamerorigins.monarchpowers/pride.description": "Your ego is so powerful, it can temporarily improve your physical abilities. But only during daytime",
+  "power.gamerorigins.monarchpowers/nytophobia.name": "Nyctophobia",
+  "power.gamerorigins.monarchpowers/nyctophobia.description": "Your power is derived from the sun, making you weaker during the night",
+  "power.gamerorigins.monarchpowers/shining.name": "Shining",
+  "power.gamerorigins.monarchpowers/shining.description": "An entire lifetime of absorbing the sun's energy makes you radiate it's light"
 }

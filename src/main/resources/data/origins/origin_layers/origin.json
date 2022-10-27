@@ -6,6 +6,7 @@
 		"gamerorigins:lato",
 		"gamerorigins:immortal_human",
 		"gamerorigins:kefflade",
+		"gamerorigins:monarch",
 		{
 			"condition": {
 				"type": "origins:equipped_item",
