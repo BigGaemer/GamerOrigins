@@ -1,7 +1,5 @@
 {
-    "name": "Shadow Blast",
-    "description": "(Secondary - Sneaking - 30 Dark Chromes): You channel the arts of shadow magic to unleash a shadow bolt in the direction you're facing. Blinding, Slowing and damaging the target.",
-    "condition": {
+   "condition": {
         "type": "origins:and",
         "conditions": [
             {

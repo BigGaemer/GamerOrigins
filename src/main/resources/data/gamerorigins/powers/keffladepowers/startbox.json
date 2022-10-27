@@ -1,6 +1,4 @@
 {
-    "name": "Magical Box",
-    "description": "You start with items that benefit your magical needs.",
     "type": "origins:starting_equipment",
     "stack": {
         "item": "minecraft:book"

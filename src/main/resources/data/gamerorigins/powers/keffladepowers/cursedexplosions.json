@@ -1,7 +1,5 @@
 {
-    "name": "Unstable Magic",
-    "description": "(ternary - 70 Dark Chromes): With a very long cooldown, You fire an explosive projectile to the target infront of you with a range of 20 blocks. Hitting a target marks them. After 4 seconds the chain explosions start to happen. each explosion takes a second. for a max of 2 explosions in total.",
-    "condition": {
+   "condition": {
         "type": "origins:and",
         "conditions": [
             {

@@ -1,6 +1,4 @@
 {
-    "name": "Cloth Armor",
-    "description": "You can only wear up to leather.",
     "type": "origins:restrict_armor",
     "head": {
         "type": "origins:armor_value",

@@ -1,7 +1,5 @@
 {
-    "name": "Ender Fireball",
-    "description": "(ternary - Not Sneaking - 20 Dark Chromes): You channel the magic arts of ender magic to fire an enderdragon fireball to the direction you're looking at.",
-    "condition": {
+   "condition": {
         "type": "origins:and",
         "conditions": [
             {
