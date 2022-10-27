@@ -1,0 +1,22 @@
+{
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "minecraft:book"
+    },
+    "stacks": [
+        {
+            "item": "minecraft:bookshelf",
+            "amount": 5
+        },
+        {
+            "item": "minecraft:enchanting_table"
+        },
+        {
+            "item": "minecraft:brewing_stand"
+        },
+        {
+            "item": "minecraft:experience_bottle",
+            "amount": 15
+        }
+    ]
+}

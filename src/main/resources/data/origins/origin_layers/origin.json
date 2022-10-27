@@ -3,6 +3,9 @@
 	"origins": [
 		"gamerorigins:daltog",
 		"gamerorigins:mync",
+		"gamerorigins:lato",
+		"gamerorigins:immortal_human",
+		"gamerorigins:kefflade",
 		{
 			"condition": {
 				"type": "origins:equipped_item",
@@ -15,7 +18,7 @@
 				}
 			},
 			"origins": [
-				"gamerorigins:lato"
+				
 			]
 		}
 	]

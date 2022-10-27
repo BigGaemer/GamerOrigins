@@ -1,0 +1,434 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 10
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:resistance",
+                                "duration": 100,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            "effects": [
+                                {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                },
+                                {
+                                    "effect": "minecraft:strength",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 10,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 9
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:resistance",
+                                "duration": 100,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            "effects": [
+                                {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                },
+                                {
+                                    "effect": "minecraft:strength",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 9,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 8
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:resistance",
+                                "duration": 100,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            "effects": [
+                                {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                },
+                                {
+                                    "effect": "minecraft:strength",
+                                    "duration": 100,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 8,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 7
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:resistance",
+                                "duration": 100,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            "effects": [
+                                {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                },
+                                {
+                                    "effect": "minecraft:strength",
+                                    "duration": 100,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 7,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 6
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:resistance",
+                                "duration": 100,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            "effects": [
+                                {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 6,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 5
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:resistance",
+                                "duration": 100,
+                                "amplifier": 1,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            "effects": [
+                                {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 5,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": "==",
+                    "compare_to": 4
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:resistance",
+                                "duration": 100,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            "effects": [
+                                {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 100,
+                                    "amplifier": 1,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 4,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": "==",
+                    "compare_to": 3
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:regeneration",
+                                "duration": 100,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            "effects": [
+                                {
+                                    "effect": "minecraft:resistance",
+                                    "duration": 100,
+                                    "amplifier": 0,
+                                    "show_particles": true,
+                                    "show_icon": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 2,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": "==",
+                    "compare_to": 2
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:regeneration",
+                                "duration": 100,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "gamerorigins:keffladepowers/darkchromes",
+                            "change": 2,
+                            "operation": "add"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:bookshelf"
+                    },
+                    "radius": 10,
+                    "shape": "cube",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                "action": {
+                    "type": "origins:change_resource",
+                    "resource": "gamerorigins:keffladepowers/darkchromes",
+                    "change": 1,
+                    "operation": "add"
+                }
+            }
+        ]
+    }
+}

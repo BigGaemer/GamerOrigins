@@ -1,5 +1,6 @@
 {
     "type": "origins:inventory",
-    "title": "container.inventory_power",
+    "container_type": "chest",
+    "title": "gamer.container.inventory_power",
     "key": "quaternary"
 }

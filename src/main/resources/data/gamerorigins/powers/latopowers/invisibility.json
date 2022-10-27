@@ -4,5 +4,6 @@
   "key": {
     "key": "secondary",
     "continuous": false
-  }
+  },
+  "hidden": false
 }

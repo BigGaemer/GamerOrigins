@@ -1,0 +1,37 @@
+{
+	"powers": [
+		"gamerorigins:keffladepowers/darkchromes",
+        "gamerorigins:keffladepowers/chromeboost",
+        "gamerorigins:keffladepowers/supernova",
+        "gamerorigins:keffladepowers/supernovachromes",
+        "gamerorigins:keffladepowers/passivechromeregen",
+        "gamerorigins:keffladepowers/chrometest",
+        "gamerorigins:keffladepowers/lightningbolt",
+        "gamerorigins:keffladepowers/lightningboltchromes",
+        "gamerorigins:keffladepowers/whitemagic",
+        "gamerorigins:keffladepowers/whitemagicchromes",
+        "gamerorigins:keffladepowers/shadowblast",
+        "gamerorigins:keffladepowers/shadowblastchromes",
+        "gamerorigins:keffladepowers/cursedexplosions",
+        "gamerorigins:keffladepowers/cursedexplosionschromes",
+        "gamerorigins:keffladepowers/darkball",
+        "gamerorigins:keffladepowers/darkballchromes",
+        "gamerorigins:keffladepowers/bookshelfnear",
+        "gamerorigins:keffladepowers/darkfavour",
+        "gamerorigins:keffladepowers/darkftwo",
+        "gamerorigins:keffladepowers/honeychromes",
+        "gamerorigins:keffladepowers/startbox",
+        "gamerorigins:keffladepowers/nodmg",
+        "gamerorigins:keffladepowers/ginodmg",
+        "gamerorigins:keffladepowers/leatherarmour",
+        "gamerorigins:keffladepowers/kefflade_natural_armour",
+        "gamerorigins:latopowers/lightweight",
+        "gamerorigins:latopowers/water_vulnerability",
+        "gamerorigins:latopowers/lato_blooded",
+        "gamerorigins:latopowers/seventeen_lives"
+        
+	],
+	"icon": "minecraft:air",
+	"order": 1002,
+	"impact": 3
+}

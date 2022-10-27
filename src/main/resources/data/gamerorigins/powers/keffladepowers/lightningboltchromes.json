@@ -1,0 +1,27 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": false,
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "gamerorigins:keffladepowers/darkchromes",
+                "comparison": ">=",
+                "compare_to": 90
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "gamerorigins:keffladepowers/darkchromes",
+        "change": -90,
+        "operation": "add"
+    },
+    "cooldown": 250,
+    "key": "primary"
+}

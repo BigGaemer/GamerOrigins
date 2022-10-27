@@ -1,0 +1,9 @@
+{
+	"powers": [
+		"gamerorigins:immortal_humanpowers/immortal",
+        "gamerorigins:immortal_humanpowers/pathetic"
+	],
+	"icon": "minecraft:air",
+	"order": 1001,
+	"impact": 3
+}

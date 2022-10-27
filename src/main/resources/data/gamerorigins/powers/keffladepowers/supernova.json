@@ -1,0 +1,66 @@
+{
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "gamerorigins:keffladepowers/darkchromes",
+                "comparison": ">=",
+                "compare_to": 30
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:raycast",
+                    "distance": 150,
+                    "block": true,
+                    "entity": true,
+                    "shape_type": "visual",
+                    "fluid_handling": "any",
+                    "miss_action": {
+                        "type": "origins:nothing"
+                    },
+                    "command_at_hit": "summon firework_rocket ~ ~ ~ {FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Colors:[I;11743532,2437522,12910782,14602026,15435844],FadeColors:[I;11743532,2437522,8073150]}]}}}}",
+                    "command_along_ray": "particle minecraft:dust_color_transition 1.0 0.0 0.0 1.0 0.0 0.0 1.0 ~ ~1 ~",
+                    "command_step": 0.3
+                },
+                "ticks": 10
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "entity.illusioner.cast_spell",
+                "volume": 1,
+                "pitch": 2
+            },
+            {
+                "type": "origins:spawn_particles",
+                "particle": "sonic_boom",
+                "count": 3,
+                "force": true,
+                "spread": {
+                    "x": 0.25,
+                    "y": 0.13,
+                    "z": 0.25
+                },
+                "offset_y": 1.5
+            }
+        ]
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "primary"
+    }
+}

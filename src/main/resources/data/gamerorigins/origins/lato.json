@@ -1,22 +1,22 @@
 {
     "powers": [
-      "gamerorigins:lato_blooded",
-      "gamerorigins:seventeen_lives",
-      "gamerorigins:natural_armor",
-      "gamerorigins:tailwind",
-      "gamerorigins:rage",
-      "gamerorigins:rage_dummy",
-      "gamerorigins:rage_addition",
-      "gamerorigins:perfect_vision",
-      "gamerorigins:water_vulnerability",
-      "gamerorigins:invisimunity",
-      "gamerorigins:invisibility",
-      "gamerorigins:invulnerability",
-      "gamerorigins:strong",
-      "gamerorigins:long_arms"
+      "gamerorigins:latopowers/lato_blooded",
+      "gamerorigins:latopowers/seventeen_lives",
+      "gamerorigins:latopowers/natural_armor",
+      "gamerorigins:latopowers/tailwind",
+      "gamerorigins:latopowers/rage",
+      "gamerorigins:latopowers/rage_dummy",
+      "gamerorigins:latopowers/rage_addition",
+      "gamerorigins:latopowers/perfect_vision",
+      "gamerorigins:latopowers/water_vulnerability",
+      "gamerorigins:latopowers/invisibility",
+      "gamerorigins:latopowers/invisibility_invis",
+      "gamerorigins:latopowers/strong",
+      "gamerorigins:latopowers/long_arms",
+      "gamerorigins:latopowers/lightweight"
     ],
     "icon": "netherite_axe",
-    "order": 1,
+    "order": 998,
     "impact": 3
   }
   

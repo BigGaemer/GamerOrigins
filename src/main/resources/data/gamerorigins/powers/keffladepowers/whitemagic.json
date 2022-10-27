@@ -1,0 +1,118 @@
+{
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "gamerorigins:keffladepowers/darkchromes",
+                "comparison": ">=",
+                "compare_to": 50
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 20,
+        "block": true,
+        "entity": true,
+        "shape_type": "outline",
+        "fluid_handling": "any",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:entity_group",
+                    "group": "undead"
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:damage",
+                            "amount": 6,
+                            "source": {
+                                "name": "magic",
+                                "bypasses_armor": true,
+                                "unblockable": true,
+                                "magic": true
+                            }
+                        },
+                        {
+                            "type": "origins:delay",
+                            "action": {
+                                "type": "origins:damage",
+                                "amount": 2,
+                                "source": {
+                                    "name": "magic",
+                                    "bypasses_armor": true,
+                                    "unblockable": true,
+                                    "magic": true
+                                }
+                            },
+                            "ticks": 40
+                        },
+                        {
+                            "type": "origins:delay",
+                            "action": {
+                                "type": "origins:damage",
+                                "amount": 2,
+                                "source": {
+                                    "name": "magic",
+                                    "bypasses_armor": true,
+                                    "unblockable": true,
+                                    "magic": true
+                                }
+                            },
+                            "ticks": 80
+                        }
+                    ]
+                },
+                "else_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:heal",
+                            "amount": 6
+                        },
+                        {
+                            "type": "origins:delay",
+                            "action": {
+                                "type": "origins:heal",
+                                "amount": 2
+                            },
+                            "ticks": 40
+                        },
+                        {
+                            "type": "origins:delay",
+                            "action": {
+                                "type": "origins:heal",
+                                "amount": 2
+                            },
+                            "ticks": 80
+                        }
+                    ]
+                }
+            }
+        },
+        "hit_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:block.amethyst_cluster.hit",
+            "volume": 1,
+            "pitch": 1
+        },
+        "command_along_ray": "particle minecraft:crit"
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 18
+    },
+    "key": "secondary"
+}
