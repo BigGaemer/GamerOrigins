@@ -23,7 +23,8 @@
     "gamer.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.0",
+    "origins": ">=1.7.1",
+    "fabricloader": ">=0.14.0",
     "fabric": "*",
     "minecraft": "1.19.x"
   }

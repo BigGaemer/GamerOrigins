@@ -3,9 +3,7 @@
 	"minVersion": "0.8",
 	"package": "dev.ryantlg.gamerorigins.core.mixins",
 	"compatibilityLevel": "JAVA_16",
-	"mixins": [
-		"GamerMixin"
-	],
+	"mixins": [],
 	"injectors": {
 		"defaultRequire": 1
 	}

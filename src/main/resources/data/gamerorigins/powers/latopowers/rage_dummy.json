@@ -14,7 +14,7 @@
       }
     ]
   },
-  "cooldown": 550,
+  "cooldown": 800,
   "hud_render": {
     "sprite_location": "gamerorigins:textures/gui/nothing.png",
     "bar_index": "0"
