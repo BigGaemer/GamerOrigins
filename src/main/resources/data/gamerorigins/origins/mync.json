@@ -13,7 +13,11 @@
       	"gamerorigins:myncpowers/mync_rage_addition",
 		"gamerorigins:myncpowers/mync_echolocate",
 		"gamerorigins:latopowers/lightweight",
-		"gamerorigins:latopowers/insomnia"
+		"gamerorigins:latopowers/insomnia",
+		"gamerorigins:latopowers/tall",
+		"gamerorigins:latopowers/tall_hitbox",
+		"gamerorigins:latopowers/tall_width",
+		"gamerorigins:latopowers/tall_width_hitbox"
 	],
 	"icon": {
 		"item": "gamerorigins:mync_eye"

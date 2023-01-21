@@ -12,7 +12,11 @@
 		"gamerorigins:mus/flexibility",
 		"gamerorigins:latopowers/lato_blooded",
 		"gamerorigins:latopowers/sun_damage",
-		"gamerorigins:mus/mus_natural_armor"
+		"gamerorigins:mus/mus_natural_armor",
+		"gamerorigins:latopowers/tall",
+		"gamerorigins:latopowers/tall_hitbox",
+		"gamerorigins:latopowers/tall_width",
+		"gamerorigins:latopowers/tall_width_hitbox"
 	],
 	"icon": "minecraft:dead_fire_coral",
 	"order": 1004,
