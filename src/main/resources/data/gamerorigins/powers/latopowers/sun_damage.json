@@ -2,14 +2,14 @@
     "type": "origins:damage_over_time",
     "interval": 15,
     "onset_delay": 1,
-    "damage": 1,
+    "damage": 2,
     "damage_easy": 1,
     "damage_source": {
       "name": "burn_in_sun",
       "unblockable": true,
       "bypasses_armor": true
     },
-    "protection_enchantment": "origins:water_protection",
+    "protection_enchantment": "gamerorigins:sun_protection",
     "protection_effectiveness": 1.5,
     "condition": {
         "type": "origins:exposed_to_sun"

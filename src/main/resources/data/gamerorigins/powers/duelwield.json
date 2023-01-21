@@ -1,0 +1,64 @@
+{
+    "name": "Dual Wield",
+    "description": "You are ambidextrous! (You can swing weapons by equipping them into your offhand) [right click] (doesn't work with hoes and shovels)",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:wooden_sword"
+                },
+                {
+                    "item": "minecraft:golden_sword"
+                },
+                {
+                    "item": "minecraft:iron_sword"
+                },
+                {
+                    "item": "minecraft:diamond_sword"
+                },
+                {
+                    "item": "minecraft:netherite_sword"
+                },
+                {
+                    "item": "minecraft:wooden_axe"
+                },
+                {
+                    "item": "minecraft:golden_axe"
+                },
+                {
+                    "item": "minecraft:iron_axe"
+                },
+                {
+                    "item": "minecraft:diamond_axe"
+                },
+                {
+                    "item": "minecraft:netherite_axe"
+                },
+                {
+                    "item": "minecraft:wooden_pickaxe"
+                },
+                {
+                    "item": "minecraft:golden_pickaxe"
+                },
+                {
+                    "item": "minecraft:iron_pickaxe"
+                },
+                {
+                    "item": "minecraft:diamond_pickaxe"
+                }
+            ]
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:swing_hand",
+        "hand": "OFF_HAND"
+    },
+    "cooldown": 0,
+    "key": {
+        "key": "key.use\t"
+    }
+}

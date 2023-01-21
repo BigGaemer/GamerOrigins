@@ -1,4 +1,4 @@
-package dev.ryantlg.gamerorigins.enchantment;
+package net.arcmods.gamer.gamerorigins.enchantment;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;

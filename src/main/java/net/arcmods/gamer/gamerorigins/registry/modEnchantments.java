@@ -1,7 +1,7 @@
-package dev.ryantlg.gamerorigins.registry;
+package net.arcmods.gamer.gamerorigins.registry;
 
-import dev.ryantlg.gamerorigins.Gamer;
-import dev.ryantlg.gamerorigins.enchantment.SunProtectionEnchantment;
+import net.arcmods.gamer.gamerorigins.Gamer;
+import net.arcmods.gamer.gamerorigins.enchantment.SunProtectionEnchantment;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EquipmentSlot;
@@ -13,7 +13,7 @@ public class modEnchantments {
     public static final Enchantment SUN_PROTECTION = new SunProtectionEnchantment(Enchantment.Rarity.RARE, EnchantmentTarget.ARMOR, new EquipmentSlot[]{EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET});
 
     public static void register() {
-        register("water_protection", SUN_PROTECTION);
+        register("sun_protection", SUN_PROTECTION);
     }
 
     private static Enchantment register(String path, Enchantment enchantment) {

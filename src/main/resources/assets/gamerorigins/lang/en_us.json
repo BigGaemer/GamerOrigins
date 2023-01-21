@@ -1,10 +1,15 @@
 {
   //-----Icon Items-----//
   "item.gamerorigins.mync_eye": "you shouldnt have this",
+  "item.gamerorigins.umbrella": "Umbrella",
 
   //-----Lato-----//
   "origin.gamerorigins.lato.name": "Lato",
   "origin.gamerorigins.lato.description": "Latos banished Daltogs to the nether long ago. Although strong, most of the Latos are gone now.",
+  "power.gamerorigins.latopowers/sun_damage.name": "Xeroderma pigmentosum",
+  "power.gamerorigins.latopowers/insomnia.name": "Creature of the night",
+  "power.gamerorigins.latopowers/insomnia.description": "You cannot sleep during night",
+  "power.gamerorigins.latopowers/sun_damage.description": "Your skin sizzles up in the sun.",
   "power.gamerorigins.latopowers/invisibility.name": "Invisibility",
   "power.gamerorigins.latopowers/invisibility.description": "Blend in with your surroundings and become invisible.",
   "power.gamerorigins.latopowers/perfect_vision.name": "Perfect Vision",
@@ -28,6 +33,8 @@
   "power.gamerorigins.latopowers/lightweight.name": "Lightweight",
   "power.gamerorigins.latopowers/lightweight.description": "You are not very heavy, so dripleaves don't tilt under your weight.",
 
+  "death.attack.burn_in_sun": "%1$s sizzled up in the sun.",
+  "death.attack.burn_in_sun.player": "%1$s sizzled up in the sun whilst trying to escape %2$s.",
   "death.attack.boil_in_water": "%1$s was boiled alive",
   "death.attack.boil_in_water.player": "%1$s was boiled alive whilst trying to escape %2$s",
 
@@ -77,7 +84,7 @@
   "origin.gamerorigins.kefflade.name": "Kefflade",
   "origin.gamerorigins.kefflade.description": "A Lato, versed in magic",
   "power.gamerorigins.keffladepowers/darkchromes.name": "Dark Chromes",
-  "power.gamerorigins.keffladepowers/darkchromes.description": "You have a resource bar that indicates how much Dark Chromes you have left, Dark Chromes are needed to use some abilities.\nYou gain Dark Chromes passively every second. Holding a book in your offhand gives you increased Dark Chromes regen.\n(Max Dark Chromes is 200)",
+  "power.gamerorigins.keffladepowers/darkchromes.description": "You have a resource bar that indicates how many Dark Chromes you have left, Dark Chromes are needed to use some abilities.\nYou gain Dark Chromes passively every second. Holding a book in your offhand gives you increased Dark Chromes regen.\n(Max Dark Chromes is 200)",
   "power.gamerorigins.keffladepowers/bookshelfnear.name": "Book Lover",
   "power.gamerorigins.keffladepowers/bookshelfnear.description": "Being near bookshelves increases your Dark Chromes per second, and also gives you bonuses.\n(Stacking up to 10 bookshelves)",
   "power.gamerorigins.keffladepowers/darkfavour.name": "Magic Mastery",
@@ -103,7 +110,7 @@
 
   //-----Monarch-----//
   "origin.gamerorigins.monarch.name": "Monarch",
-  "origin.gamerorigins.monarch.description": "The Monarchs were the first of them all, they took pride in the fact that they were superior to all others of their time, that was until newer and better origins came along and almost drove them to extinction. However, now they have returned after evolving into something much more powerful",
+  "origin.gamerorigins.monarch.description": "The Monarchs were the first of them all, they took pride in the fact that they were superior to all others of their time, that was until newer and better species came along and drove them to near extinction. \nNow they have returned after evolving into something far more powerful",
   "power.gamerorigins.monarchpowers/hyperefficient_blood.name": "Hyperefficient Blood",
   "power.gamerorigins.monarchpowers/hyperefficient_blood.description": "Your blood is extremely efficient, destroying any poisons within their bloodstream before they have a chance to do any damage",
   "power.gamerorigins.monarchpowers/sun_fueled.name": "Sun Fueled",
@@ -113,5 +120,25 @@
   "power.gamerorigins.monarchpowers/nytophobia.name": "Nyctophobia",
   "power.gamerorigins.monarchpowers/nyctophobia.description": "Your power is derived from the sun, making you weaker during the night",
   "power.gamerorigins.monarchpowers/shining.name": "Shining",
-  "power.gamerorigins.monarchpowers/shining.description": "An entire lifetime of absorbing the sun's energy makes you radiate it's light"
+  "power.gamerorigins.monarchpowers/shining.description": "An entire lifetime of absorbing the sun's energy makes you radiate it's light",
+
+  //-----Müs-----//
+  "origin.gamerorigins.mus.name": "Müs",
+  "origin.gamerorigins.mus.description": "A Lato, seen as an outcast among outcasts.",
+  "power.gamerorigins.mus/closeeyes.name": "Close eyes",
+  "power.gamerorigins.mus/closeeyes.description": "As your eyes close, you let your mind divine the world. Visions of what could be halt your reason and feed your fascination.",
+  "power.gamerorigins.mus/fascination.name": "Fascination",
+  "power.gamerorigins.mus/fascination.description": "Your inspiration, your purpose. As it grows, so too shall your strength.",
+  "power.gamerorigins.mus/flexibility.name": "Flexible",
+  "power.gamerorigins.mus/flexibility.description": "No physical restraints will hold you back. You reject the safety of heavy armour in pursuit of a greater freedom.",
+  "power.gamerorigins.mus/mus_natural_armor.name": "Thick Skin",
+  "power.gamerorigins.mus/mus_natural_armor.description": "Even without wearing armor, your skin provides natural protection.",
+  "power.gamerorigins.mus/no_villager.name": "Superiority",
+  "power.gamerorigins.mus/no_villager.description": "You cannot stand how foolish villagers are. As such, you cannot trade with them.",
+  "power.gamerorigins.mus/reason.name": "Reason",
+  "power.gamerorigins.mus/reason.description": "As it grows and you become of sound mind, your fascination drains. It grants you agency, allows you to bend your body in ways you have not thought possible.",
+  "power.gamerorigins.mus/lookwithin.name": "Look within",
+  "power.gamerorigins.mus/lookwithin.description": "You discard your reason, you find inspiration within your own mortal form. You must use a blade.",
+  "power.gamerorigins.mus/fascinationeffects.name": "Awareness",
+  "power.gamerorigins.mus/fascinationeffects.description": "As your fascination reaches a glorious epitome, all is revealed. The higher you rise the more you see."
 }

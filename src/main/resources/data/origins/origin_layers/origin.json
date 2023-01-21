@@ -7,6 +7,7 @@
 		"gamerorigins:immortal_human",
 		"gamerorigins:kefflade",
 		"gamerorigins:monarch",
+		"gamerorigins:mus",
 		{
 			"condition": {
 				"type": "origins:equipped_item",

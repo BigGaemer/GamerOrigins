@@ -5,14 +5,15 @@
 		"gamerorigins:latopowers/seventeen_lives",
 		"gamerorigins:myncpowers/mync_natural_armour",
 		"gamerorigins:latopowers/lato_blooded",
-		"gamerorigins:latopowers/water_vulnerability",
+		"gamerorigins:latopowers/sun_damage",
 		"gamerorigins:myncpowers/mync_tailwind",
 		"gamerorigins:myncpowers/mync_strong",
 		"gamerorigins:myncpowers/mync_rage",
       	"gamerorigins:myncpowers/mync_rage_dummy",
       	"gamerorigins:myncpowers/mync_rage_addition",
 		"gamerorigins:myncpowers/mync_echolocate",
-		"gamerorigins:latopowers/lightweight"
+		"gamerorigins:latopowers/lightweight",
+		"gamerorigins:latopowers/insomnia"
 	],
 	"icon": {
 		"item": "gamerorigins:mync_eye"

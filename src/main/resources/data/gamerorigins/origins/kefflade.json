@@ -26,9 +26,10 @@
         "gamerorigins:keffladepowers/leatherarmour",
         "gamerorigins:keffladepowers/kefflade_natural_armour",
         "gamerorigins:latopowers/lightweight",
-        "gamerorigins:latopowers/water_vulnerability",
+        "gamerorigins:latopowers/sun_damage",
         "gamerorigins:latopowers/lato_blooded",
-        "gamerorigins:latopowers/seventeen_lives"
+        "gamerorigins:latopowers/seventeen_lives",
+		"gamerorigins:latopowers/insomnia"
         
 	],
 	"icon": "minecraft:air",

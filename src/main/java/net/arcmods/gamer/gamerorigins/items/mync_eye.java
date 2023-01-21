@@ -1,4 +1,4 @@
-package dev.ryantlg.gamerorigins.items;
+package net.arcmods.gamer.gamerorigins.items;
 
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;

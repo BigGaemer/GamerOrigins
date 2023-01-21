@@ -1,0 +1,7 @@
+{
+    "type": "origins:prevent_sleep",
+    "name": "Sleepless",
+    "description": "As a creature of the night, you cannot sleep during the night.",
+    "set_spawn_point": true,
+    "message": "You cannot sleep now."
+}

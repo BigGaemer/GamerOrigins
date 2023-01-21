@@ -1,0 +1,72 @@
+{
+    "type": "origins:active_self",
+    "condition": {
+	"type": "origins:equipped_item",
+	"equipment_slot": "mainhand",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "gamerorigins:blades"
+		}
+	}
+    },
+    "cooldown": 200,
+    "hud_render": {
+	"should_render": true,
+	"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+	"bar_index": 1
+    },
+    "key": "key.origins.secondary_active",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:play_sound",
+                "sound": "entity.goat.horn_break",
+                "volume": 1,
+                "pitch": 1
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "entity.goat.ram_impact",
+                "volume": 1,
+                "pitch": 1
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "entity.slime.squish",
+                "volume": 2,
+                "pitch": 0
+            },
+            {
+                "type": "origins:change_resource",
+		"resource": "gamerorigins:mus/reason",
+		"change": -25
+            },
+            {
+                "type": "origins:change_resource",
+		"resource": "gamerorigins:mus/fascination",
+		"change": 25
+            },
+            {
+		"type": "origins:damage",
+		"amount": 10,
+		"source": {
+    			"name": "generic",
+    			"bypasses_armor": true,
+			"unblockable": true
+		}
+            },
+    	    {
+   		"type": "origins:apply_effect",
+  		"effect": {
+      			"effect": "minecraft:slowness",
+       			"duration": 60,
+       		 	"amplifier": 4,
+			"show_icon": false,
+			"show_particles": false
+   		}
+	     }
+        ]
+    }
+}

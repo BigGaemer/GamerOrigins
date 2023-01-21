@@ -1,9 +1,12 @@
 {
 	"required": true,
 	"minVersion": "0.8",
-	"package": "dev.ryantlg.gamerorigins.core.mixins",
+	"package": "net.arcmods.gamer.gamerorigins.mixin",
 	"compatibilityLevel": "JAVA_16",
-	"mixins": [],
+	"mixins": [
+		"PlayerConditionsMixin",
+		"PlayerEntityMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}

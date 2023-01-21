@@ -16,8 +16,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.ryantlg.gamerorigins.Gamer"
-    ]
+      "net.arcmods.gamer.gamerorigins.Gamer"
+    ],
+    "client": [
+      "net.arcmods.gamer.gamerorigins.client.GamerKeybinds",
+      "net.arcmods.gamer.gamerorigins.client.layerRenderer"
+  ]
   },
   "mixins": [
     "gamer.mixins.json"
@@ -27,5 +31,8 @@
     "fabricloader": ">=0.14.0",
     "fabric": "*",
     "minecraft": "1.19.x"
+  },
+  "conflicts": {
+    "extrakeybinds": "*"
   }
 }

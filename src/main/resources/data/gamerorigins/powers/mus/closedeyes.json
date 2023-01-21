@@ -1,0 +1,71 @@
+{
+	"type": "origins:multiple",
+	"hidden": true,
+	"eyesclosed": {
+		"type": "origins:action_over_time",
+		"interval": 10,
+		"condition": {
+			"type": "origins:power_active",
+			"power": "gamerorigins:mus/closeeyes"
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "gamerorigins:mus/fascination",
+			"change": 1
+		}
+	},
+	"eyesclosedshader": {
+		"type": "origins:shader",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "gamerorigins:mus/closeeyes"
+		},
+		"shader": "minecraft:shaders/post/sobel.json",
+		"toggleable": false
+	},
+	"eyesclosedblindness": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:blindness",
+				"duration": 1000000,
+				"amplifier": 0,
+				"show_particles": false,
+				"show_icon": false
+			}
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"power": "gamerorigins:mus/closeeyes"
+		}
+	},
+	"eyesopenvision": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:clear_effect",
+			"effect": "minecraft:blindness"
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"power": "gamerorigins:mus/closeeyes",
+			"inverted": true
+		}
+	},
+	"eyesopen": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"condition": {
+			"type": "origins:power_active",
+			"power": "gamerorigins:mus/closeeyes",
+			"inverted": true
+		},
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "gamerorigins:mus/reason",
+			"change": 1
+		}
+	}
+}
