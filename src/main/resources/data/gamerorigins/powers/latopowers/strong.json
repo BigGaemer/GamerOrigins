@@ -5,7 +5,7 @@
 		{
 			"name": "Strong damage",
 			"attribute": "generic.attack_damage",
-			"value": 1.0,
+			"value": 2.0,
 			"operation": "addition"
 		}
 	]

@@ -17,7 +17,9 @@
 		"gamerorigins:latopowers/tall",
 		"gamerorigins:latopowers/tall_hitbox",
 		"gamerorigins:latopowers/tall_width",
-		"gamerorigins:latopowers/tall_width_hitbox"
+		"gamerorigins:latopowers/tall_width_hitbox",
+		"gamerorigins:latopowers/strong",
+		"gamerorigins:latopowers/long_arms"
 	],
 	"icon": {
 		"item": "gamerorigins:mync_eye"
