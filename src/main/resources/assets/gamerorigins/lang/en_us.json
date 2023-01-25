@@ -5,7 +5,7 @@
 
   //-----Lato-----//
   "origin.gamerorigins.lato.name": "Lato",
-  "origin.gamerorigins.lato.description": "Latos banished Daltogs to the nether long ago. Although strong, most of the Latos are gone now.",
+  "origin.gamerorigins.lato.description": "A creature from a faraway world, one with very little sun, one with a very high gravitational pull.\nShortened from Latian to Lato.",
   "power.gamerorigins.latopowers/sun_damage.name": "Xeroderma pigmentosum",
   "power.gamerorigins.latopowers/insomnia.name": "Creature of the night",
   "power.gamerorigins.latopowers/insomnia.description": "You cannot sleep during night",
@@ -23,7 +23,7 @@
   "power.gamerorigins.latopowers/water_vulnerability.name": "Boiling Water",
   "power.gamerorigins.latopowers/water_vulnerability.description": "Your blood boils in water, causing you to take damage after prolonged exposure to it.",
   "power.gamerorigins.latopowers/lato_blooded.name": "Lato Blooded",
-  "power.gamerorigins.latopowers/lato_blooded.description": "A latonian's blood can work out most poisoning by itself.",
+  "power.gamerorigins.latopowers/lato_blooded.description": "A Latian's blood can work out most poisoning by itself.",
   "power.gamerorigins.latopowers/tailwind.name": "Tailwind",
   "power.gamerorigins.latopowers/tailwind.description": "You are a little bit quicker on foot than others.",
   "power.gamerorigins.latopowers/natural_armor.name": "Thick Skin",
@@ -37,22 +37,6 @@
   "death.attack.burn_in_sun.player": "%1$s sizzled up in the sun whilst trying to escape %2$s.",
   "death.attack.boil_in_water": "%1$s was boiled alive",
   "death.attack.boil_in_water.player": "%1$s was boiled alive whilst trying to escape %2$s",
-
-  //-----Daltog-----//
-  "origin.gamerorigins.daltog.name": "Daltog",
-  "origin.gamerorigins.daltog.description": "Latonians won the war and banished the daltog race to the nether a long time ago. Now the Daltog Nation is fading away.",
-  "power.gamerorigins.daltogpowers/heated_skin.name": "Heated Skin",
-  "power.gamerorigins.daltogpowers/heated_skin.description": "A heated skin allows for cuts to be quickly closed. This was one of the only advantages the Daltog Nation got when they went to the nether.",
-  "power.gamerorigins.daltogpowers/neighbors.name": "Demons Together",
-  "power.gamerorigins.daltogpowers/neighbors.description": "You are familiar with mobs of the nether.",
-  "power.gamerorigins.daltogpowers/native_resources.name": "Native Resources",
-  "power.gamerorigins.daltogpowers/native_resources.description": "Slightly increased damage using netherite or gold, and allows netherrack to be used as cobblestone.",
-
-  //-----Lata-----//
-  "origin.gamerorigins.lata.name": "Lata(TEMP)",
-  "origin.gamerorigins.lata.description": "The Lata were the Daltogs' last effort to survive against the Latonians, but they went rogue and are now on the brink of extinction",
-  "power.gamerorigins.water_vulnerability_ex.name": "Extra Boiling Water",
-  "power.gamerorigins.water_vulnerability_ex.description": "Your blood quickly boils in water, causing you to take damage after prolonged exposure to it.",
 
   //-----Mync-----//
   "origin.gamerorigins.mync.name": "Mync",

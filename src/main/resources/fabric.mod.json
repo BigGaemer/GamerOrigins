@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "gamerorigins",
+  "provides": [
+    "extrakeybinds"
+  ],
   "version": "${version}",
   "name": "GamerOrigins",
   "description": "Adds Gæmer origins",
