@@ -32,6 +32,8 @@
   "power.gamerorigins.latopowers/long_arms.description": "You have slightly longer arms.",
   "power.gamerorigins.latopowers/lightweight.name": "Lightweight",
   "power.gamerorigins.latopowers/lightweight.description": "You are not very heavy, so dripleaves don't tilt under your weight.",
+  "power.gamerorigins.latopowers/tall.name": "Tall",
+  "power.gamerorigins.latopowers/tall.description": "You are half a block taller.",
 
   "death.attack.burn_in_sun": "%1$s sizzled up in the sun.",
   "death.attack.burn_in_sun.player": "%1$s sizzled up in the sun whilst trying to escape %2$s.",
@@ -101,7 +103,7 @@
   "power.gamerorigins.monarchpowers/sun_fueled.description": "You have evolved to draw power from the sun, leading you to become more powerful during the day",
   "power.gamerorigins.monarchpowers/pride.name": "Pride",
   "power.gamerorigins.monarchpowers/pride.description": "Your ego is so powerful, it can temporarily improve your physical abilities. But only during daytime",
-  "power.gamerorigins.monarchpowers/nytophobia.name": "Nyctophobia",
+  "power.gamerorigins.monarchpowers/nyctophobia.name": "Nyctophobia",
   "power.gamerorigins.monarchpowers/nyctophobia.description": "Your power is derived from the sun, making you weaker during the night",
   "power.gamerorigins.monarchpowers/shining.name": "Shining",
   "power.gamerorigins.monarchpowers/shining.description": "An entire lifetime of absorbing the sun's energy makes you radiate it's light",

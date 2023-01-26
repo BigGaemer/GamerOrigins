@@ -9,21 +9,21 @@
 			"type": "origins:apply_effect",
 			"effects": [{
 					"effect": "minecraft:speed",
-					"amplifier": 1,
+					"amplifier": 0,
 					"duration": 35,
 					"show_particles": false,
 					"show_icon": false
 				},
 				{
 					"effect": "minecraft:strength",
-					"amplifier": 2,
+					"amplifier": 0,
 					"duration": 35,
 					"show_particles": false,
 					"show_icon": false
 				},
 				{
 					"effect": "minecraft:resistance",
-					"amplifier": 3,
+					"amplifier": 0,
 					"duration": 35,
 					"show_particles": false,
 					"show_icon": false
@@ -31,6 +31,5 @@
 			]
 		}
 	]
-	},
-  "update_health": true
+	}
 }

@@ -10,7 +10,7 @@
         "type": "origins:apply_effect",
         "effects": [{
             "effect": "minecraft:slowness",
-            "amplifier": 2,
+            "amplifier": 0,
             "duration": 35,
             "show_particles": false,
             "show_icon": false
