@@ -1,7 +1,7 @@
 package net.arcmods.gamer.gamerorigins;
 
 import net.arcmods.gamer.gamerorigins.items.mync_eye;
-import net.arcmods.gamer.gamerorigins.items.umbrella;
+// import net.arcmods.gamer.gamerorigins.items.umbrella;
 import net.arcmods.gamer.gamerorigins.registry.modEnchantments;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,7 +15,7 @@ public class Gamer implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		umbrella.registerItems();
+		// umbrella.registerItems();
 		mync_eye.register();
 		modEnchantments.register();
 		LOGGER.info("man this Origins is Gamer");

@@ -4,8 +4,7 @@
 	"package": "net.arcmods.gamer.gamerorigins.mixin",
 	"compatibilityLevel": "JAVA_16",
 	"mixins": [
-		"PlayerConditionsMixin",
-		"PlayerEntityMixin"
+
 	],
 	"injectors": {
 		"defaultRequire": 1
