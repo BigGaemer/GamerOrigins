@@ -1,9 +1,9 @@
 package net.arcmods.gamer.gamerorigins.items;
 
 import net.minecraft.item.Item;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
-import net.minecraft.util.registry.Registry;
 
 public class mync_eye {
 
