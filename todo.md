@@ -1,4 +1,5 @@
-# daevite origin
+# religion
+# daevite religion
     -Hates creation. (can't craft)
     -Worshipper of the Daevas
         -Blessing of the Daevas(higher health, natural armour etc.)
