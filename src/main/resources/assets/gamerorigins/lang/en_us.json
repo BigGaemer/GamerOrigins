@@ -10,8 +10,8 @@
   "power.gamerorigins.latopowers/insomnia.name": "Creature of the night",
   "power.gamerorigins.latopowers/insomnia.description": "You cannot sleep during night",
   "power.gamerorigins.latopowers/sun_damage.description": "Your skin sizzles up in the sun.",
-  "power.gamerorigins.latopowers/invisibility.name": "Invisibility",
-  "power.gamerorigins.latopowers/invisibility.description": "Blend in with your surroundings and become invisible.",
+  "power.gamerorigins.latopowers/teleport.name": "Teleportation",
+  "power.gamerorigins.latopowers/teleport.description": "You can teleport some distance away.",
   "power.gamerorigins.latopowers/perfect_vision.name": "Perfect Vision",
   "power.gamerorigins.latopowers/perfect_vision.description": "Carefully constructed eyes that allow for perfect vision, they also are toggleable.",
   "power.gamerorigins.latopowers/rage.name": "Rage",
@@ -42,7 +42,7 @@
 
   //-----Mync-----//
   "origin.gamerorigins.mync.name": "Mync",
-  "origin.gamerorigins.mync.description": "Myncs are blind Latos. They can't go invisible like regular Latos but are stronger than most Latos.",
+  "origin.gamerorigins.mync.description": "Myncs are blind Latos. They can't teleport like regular Latos but are stronger than most Latos.",
   "power.gamerorigins.myncpowers/mync_blind.name": "Mushroom Sense",
   "power.gamerorigins.myncpowers/mync_blind.description": "Standing by mushrooms or mushroom related blocks allows you to connect to and feel through their roots to better perceive your surroundings.",
   "power.gamerorigins.myncpowers/mync_tailwind.name": "Tailwind",
@@ -93,6 +93,10 @@
   "power.gamerorigins.keffladepowers/cursedexplosions.description": "(Ternary + Sneaking + 70 Dark Chromes): With a very long cooldown, You fire an explosive projectile to the target infront of you with a range of 20 blocks. Hitting a target marks them. After 4 seconds the chain explosions start to happen. each explosion takes a second. for a max of 2 explosions in total.",
   "power.gamerorigins.keffladepowers/kefflade_natural_armour.name": "Thick Skin",
   "power.gamerorigins.keffladepowers/kefflade_natural_armour.description": "Even without wearing armor, your skin provides natural protection.",
+  "power.gamerorigins.keffladepowers/startbox.name": "Starting Box",
+  "power.gamerorigins.keffladepowers/startbox.description": "You will receive some items to start your journey with.",
+  "power.gamerorigins.keffladepowers/leatherarmour.name": "Leather Armour",
+  "power.gamerorigins.keffladepowers/leatherarmour.description": "You can only wear up to leather armour",
 
   //-----Monarch-----//
   "origin.gamerorigins.monarch.name": "Monarch",

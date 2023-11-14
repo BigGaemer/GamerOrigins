@@ -5,17 +5,17 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.DyeableItem;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 
 public class umbrella {
-    public static final umbrellaDyeTest UMBRELLA = new umbrellaDyeTest(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1).maxDamage(1200));
+    public static final umbrellaDyeTest UMBRELLA = new umbrellaDyeTest(new FabricItemSettings().maxCount(1).maxDamage(1200));
 
 
     public static void registerItems() {
-        Registry.register(Registry.ITEM, new Identifier(Gamer.MOD_ID, "umbrella"), UMBRELLA);
+        Registry.register(Registries.ITEM, new Identifier(Gamer.MOD_ID, "umbrella"), UMBRELLA);
 
     }
 

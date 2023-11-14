@@ -1,6 +1,4 @@
 {
-    "name": "Short and Stout",
-    "description": "You are smaller and weaker",
     "hidden": true,
     "type": "origins:action_over_time",
     "interval": 20,

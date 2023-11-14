@@ -16,13 +16,13 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class EntityMixin {
 
 
-	@Shadow public World world;
+	@Shadow World world;
 
-	@Shadow public abstract BlockPos getBlockPos();
+	@Shadow abstract BlockPos getBlockPos();
 
-	@Shadow public abstract Box getBoundingBox();
+	@Shadow abstract Box getBoundingBox();
 
-	@Shadow public abstract Iterable<ItemStack> getHandItems();
+	@Shadow abstract Iterable<ItemStack> getHandItems();
 
 	@Inject(method = "isBeingRainedOn", at = @At("HEAD"), cancellable = true)
 	private void isBeingRainedOn(CallbackInfoReturnable<Boolean> cir) {

@@ -6,7 +6,7 @@
 	"effect": {
 		"effect": "weakness",
 		"duration": 35,
-		"amplifier": 3,
+		"amplifier": 7,
 		"is_abient": true,
 		"show_particles": false,
 		"show_icon": false

@@ -5,8 +5,9 @@ import net.arcmods.gamer.gamerorigins.enchantment.SunProtectionEnchantment;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 
 public class modEnchantments {
     
@@ -17,7 +18,7 @@ public class modEnchantments {
     }
 
     private static Enchantment register(String path, Enchantment enchantment) {
-        Registry.register(Registry.ENCHANTMENT, new Identifier(Gamer.MOD_ID, path), enchantment);
+        Registry.register(Registries.ENCHANTMENT, new Identifier(Gamer.MOD_ID, path), enchantment);
         return enchantment;
     }
 }
