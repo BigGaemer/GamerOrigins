@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"gamerorigins:mus/fascination",
+		"gamerorigins:mus/reason",
+		"gamerorigins:mus/closeeyes",
+		"gamerorigins:mus/closedeyes",
+		"gamerorigins:mus/lookwithin",
+		"gamerorigins:mus/reasoneffects",
+		"gamerorigins:mus/fascinationeffects",
+		"gamerorigins:latopowers/insomnia",
+		"gamerorigins:mus/no_villager",
+		"gamerorigins:mus/flexibility",
+		"gamerorigins:latopowers/lato_blooded",
+		"gamerorigins:latopowers/sun_damage",
+		"gamerorigins:mus/mus_natural_armor",
+		"gamerorigins:latopowers/tall",
+		"gamerorigins:latopowers/tall_hitbox",
+		"gamerorigins:latopowers/tall_width",
+		"gamerorigins:latopowers/tall_width_hitbox",
+		"gamerorigins:latopowers/strong",
+		"gamerorigins:latopowers/long_arms"
+	],
+	"icon": "minecraft:dead_fire_coral",
+	"order": 1004,
+	"impact": 3
+}

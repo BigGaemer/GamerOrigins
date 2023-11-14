@@ -1,0 +1,9 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "hidden": true,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "/scale set pehkui:hitbox_width 1"
+    }
+}

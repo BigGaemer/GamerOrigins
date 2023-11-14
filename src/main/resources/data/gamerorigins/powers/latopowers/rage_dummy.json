@@ -5,16 +5,12 @@
     "type": "origins:and",
     "actions": [
       {
-        "type": "origins:apply_effect",
-        "effect": {
-          "effect": "minecraft:instant_health",
-          "duration": 2,
-          "amplifier": 1
-        }
+        "type": "origins:heal",
+        "amount": 15
       }
     ]
   },
-  "cooldown": 550,
+  "cooldown": 2400,
   "hud_render": {
     "sprite_location": "gamerorigins:textures/gui/nothing.png",
     "bar_index": "0"

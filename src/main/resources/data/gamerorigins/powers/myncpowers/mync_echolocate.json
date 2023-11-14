@@ -1,6 +1,6 @@
 {
 	"type": "origins:active_self",
-	"cooldown": 170,
+	"cooldown": 600,
 	"hud_render": {
 	  "should_render":true,
 	  "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",

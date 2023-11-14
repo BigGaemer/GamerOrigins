@@ -1,0 +1,212 @@
+{
+	"type": "origins:multiple",
+	"hidden": true,
+	"reasonfour": {
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "gamerorigins:mus/reason",
+					"comparison": ">",
+					"compare_to": 75
+				},
+				{
+					"type": "origins:power_active",
+					"power": "gamerorigins:mus/closeeyes",
+					"inverted": true
+				}
+			]
+		},
+		"type": "origins:action_over_time",
+		"interval": 5,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "gamerorigins:mus/fascination",
+					"change": -1
+				},
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:jump_boost",
+						"duration": 10,
+						"amplifier": 1,
+						"show_particles": false,
+						"show_icon": false
+					}
+				},
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:speed",
+						"duration": 10,
+						"amplifier": 1,
+						"show_particles": false,
+						"show_icon": false
+					}
+				}
+			]
+		}
+	},
+	"reasonthree": {
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "gamerorigins:mus/reason",
+					"comparison": ">",
+					"compare_to": 50
+				},
+				{
+					"type": "origins:resource",
+					"resource": "gamerorigins:mus/reason",
+					"comparison": "<",
+					"compare_to": 76
+				},
+				{
+					"type": "origins:power_active",
+					"power": "gamerorigins:mus/closeeyes",
+					"inverted": true
+				}
+			]
+		},
+		"type": "origins:action_over_time",
+		"interval": 10,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "gamerorigins:mus/fascination",
+					"change": -1
+				}
+			]
+		}
+	},
+	"reasontwo": {
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "gamerorigins:mus/reason",
+					"comparison": ">",
+					"compare_to": 25
+				},
+				{
+					"type": "origins:resource",
+					"resource": "gamerorigins:mus/reason",
+					"comparison": "<",
+					"compare_to": 51
+				},
+				{
+					"type": "origins:power_active",
+					"power": "gamerorigins:mus/closeeyes",
+					"inverted": true
+				}
+			]
+		},
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "gamerorigins:mus/fascination",
+					"change": -1
+				}
+			]
+		}
+	},
+	"reasonone": {
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "gamerorigins:mus/reason",
+					"comparison": "<",
+					"compare_to": 26
+				},
+				{
+					"type": "origins:power_active",
+					"power": "gamerorigins:mus/closeeyes",
+					"inverted": true
+				}
+			]
+		},
+		"type": "origins:action_over_time",
+		"interval": 5,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:slowness",
+						"duration": 10,
+						"amplifier": 0,
+						"show_particles": false,
+						"show_icon": false
+					}
+				}
+			]
+		}
+	},
+	"reasononeshader": {
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "gamerorigins:mus/reason",
+					"comparison": "<",
+					"compare_to": 26
+				},
+				{
+					"type": "origins:power_active",
+					"power": "gamerorigins:mus/closeeyes",
+					"inverted": true
+				}
+			]
+		},
+		"type": "origins:shader",
+		"shader": "minecraft:shaders/post/deconverge.json",
+		"toggleable": false
+	},
+	"reasonspeed": {
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "gamerorigins:mus/reason",
+					"comparison": ">",
+					"compare_to": 50
+				},
+				{
+					"type": "origins:power_active",
+					"power": "gamerorigins:mus/closeeyes",
+					"inverted": true
+				}
+			]
+		},
+		"type": "origins:action_over_time",
+		"interval": 5,
+		"entity_action": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:speed",
+				"duration": 10,
+				"amplifier": 0,
+				"show_particles": false,
+				"show_icon": false
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " # ",
+      "#P#",
+      " / "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:leather"
+      },
+      "/": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "result": {
+      "item": "gamerorigins:umbrella",
+      "count": 1
+    }
+  }

@@ -1,12 +1,12 @@
 {
 	"replace": false,
 	"origins": [
-		"gamerorigins:daltog",
 		"gamerorigins:mync",
 		"gamerorigins:lato",
 		"gamerorigins:immortal_human",
 		"gamerorigins:kefflade",
 		"gamerorigins:monarch",
+		"gamerorigins:mus",
 		{
 			"condition": {
 				"type": "origins:equipped_item",

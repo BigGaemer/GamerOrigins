@@ -10,15 +10,15 @@
           "type": "origins:apply_effect",
           "effect": {
             "effect": "minecraft:strength",
-            "duration": 2400,
-            "amplifier": 4
+            "duration": 800,
+            "amplifier": 2
           }
         },
         {
             "type": "origins:apply_effect",
             "effect": {
               "effect": "minecraft:speed",
-              "duration": 2400,
+              "duration": 800,
               "amplifier": 2
             }
         },
@@ -26,8 +26,8 @@
             "type": "origins:apply_effect",
             "effect": {
               "effect": "minecraft:resistance",
-              "duration": 2400,
-              "amplifier": 3
+              "duration": 800,
+              "amplifier": 1
             }
         },
         {
@@ -37,10 +37,10 @@
       ]
       
     },
-    "cooldown": 800,
+    "cooldown": 2200,
     "hud_render": {
-      "sprite_location": "gamerorigins:textures/gui/ability_bars.png",
-      "bar_index": "0"
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": "7"
     },
     "key": "primary"
   }

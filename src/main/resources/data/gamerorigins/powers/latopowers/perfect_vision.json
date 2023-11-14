@@ -1,6 +1,6 @@
 {
   "type": "origins:toggle_night_vision",
   "active_by_default": "true",
-  "strength": 1,
+  "strength": 0.3,
   "key": "ternary"
 }

@@ -26,9 +26,16 @@
         "gamerorigins:keffladepowers/leatherarmour",
         "gamerorigins:keffladepowers/kefflade_natural_armour",
         "gamerorigins:latopowers/lightweight",
-        "gamerorigins:latopowers/water_vulnerability",
+        "gamerorigins:latopowers/sun_damage",
         "gamerorigins:latopowers/lato_blooded",
-        "gamerorigins:latopowers/seventeen_lives"
+        "gamerorigins:latopowers/seventeen_lives",
+		"gamerorigins:latopowers/insomnia",
+        "gamerorigins:latopowers/tall",
+        "gamerorigins:latopowers/tall_hitbox",
+        "gamerorigins:latopowers/tall_width",
+        "gamerorigins:latopowers/tall_width_hitbox",
+        "gamerorigins:latopowers/strong",
+        "gamerorigins:latopowers/long_arms"
         
 	],
 	"icon": "minecraft:air",
