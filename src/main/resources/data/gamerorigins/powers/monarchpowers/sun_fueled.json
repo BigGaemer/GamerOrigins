@@ -1,35 +1,13 @@
 {
-"type": "origins:action_over_time",
 "condition": {
     "type": "origins:daytime"
   },
-	"entity_action": {
-		"type": "origins:and",
-		"actions": [{
-			"type": "origins:apply_effect",
-			"effects": [{
-					"effect": "minecraft:speed",
-					"amplifier": 0,
-					"duration": 35,
-					"show_particles": false,
-					"show_icon": false
-				},
-				{
-					"effect": "minecraft:strength",
-					"amplifier": 0,
-					"duration": 35,
-					"show_particles": false,
-					"show_icon": false
-				},
-				{
-					"effect": "minecraft:resistance",
-					"amplifier": 0,
-					"duration": 35,
-					"show_particles": false,
-					"show_icon": false
-				}
-			]
-		}
-	]
-	}
+  "type": "origins:action_over_time",
+  "interval": 40,
+  "entity_action": {
+	  "type": "origins:change_resource",
+	  "resource": "gamerorigins:monarchpowers/solar_energy",
+	  "change": 10,
+	  "operation": "add"
+  }
 }

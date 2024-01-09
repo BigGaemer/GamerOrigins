@@ -2,9 +2,11 @@
     "powers": [
       "gamerorigins:monarchpowers/hyperefficient_blood",
       "gamerorigins:monarchpowers/sun_fueled",
-      "gamerorigins:monarchpowers/pride",
+      "gamerorigins:monarchpowers/nuclear_rush",
       "gamerorigins:monarchpowers/nyctophobia",
-      "gamerorigins:monarchpowers/shining"
+      "gamerorigins:monarchpowers/shining",
+      "gamerorigins:monarchpowers/solar_energy",
+      "gamerorigins:monarchpowers/instant_transmission"
     ],
     "icon": "end_crystal",
     "order": 1003,
