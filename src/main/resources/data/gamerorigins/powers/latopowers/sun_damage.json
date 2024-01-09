@@ -1,4 +1,27 @@
 {
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+        {
+            "inverted": true,
+            "type": "origins:inventory",
+            "process_mode": "items",
+            "slots": [
+              "weapon.mainhand",
+              "weapon.offhand"
+            ],
+            "item_condition": {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "item": "gamerorigins:umbrella"
+              }
+            }
+        },
+        {
+            "type": "origins:exposed_to_sun"
+        }
+    ]
+  },
     "type": "origins:damage_over_time",
     "interval": 15,
     "onset_delay": 1,
@@ -10,8 +33,5 @@
       "bypasses_armor": true
     },
     "protection_enchantment": "gamerorigins:sun_protection",
-    "protection_effectiveness": 1.1,
-    "condition": {
-        "type": "origins:exposed_to_sun"
-    }
+    "protection_effectiveness": 1.1
   }
